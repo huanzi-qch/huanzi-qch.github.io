@@ -13,7 +13,7 @@
 
 　　首先我们在springCloud下面新建一个springboot项目：zuul-server，pom继承parent，并且在Eureka上面注册（还不会服务注册与发现的，请戳：[SpringCloud系列——Eureka 服务注册与发现](https://www.cnblogs.com/huanzi-qch/p/10131985.html)） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181219102108173-1887365913.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181219102108173-1887365913.png)  <br/>
 
  　　maven引入Zuul <br/>
 
@@ -141,7 +141,7 @@ public class ZuulServerApplication {
 
 　　启动所有项目，我们在Eureka上注册了四个服务，相比上篇（[SpringCloud系列——Ribbon 负载均衡](https://www.cnblogs.com/huanzi-qch/p/10136254.html)）多了一个Zuul <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181219113012111-1845808767.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181219113012111-1845808767.png)  <br/>
 
 
 
@@ -153,7 +153,7 @@ public class ZuulServerApplication {
 
 　　2、携带accessToken时，可正常路由，并且Feign调用、Ribbon负载均衡 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181219112735658-1129092138.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181219112735658-1129092138.gif)  <br/>
 
 
 
@@ -185,7 +185,7 @@ public class ZuulServerApplication {
 
 　　<span style="color: rgba(0, 0, 0, 1)">  　　这里记录一下第三种方案</span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211224154946744-1454067149.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211224154946744-1454067149.png)  <br/>
 
 　　<span style="color: rgba(0, 0, 0, 1)">  　　mysql新建zuul路由表</span> <br/>
 
@@ -351,7 +351,7 @@ public class ZuulRouteController {
 
 　　http://localhost:10010/zuulRouteRefresh <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211224155015802-1834888607.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211224155015802-1834888607.png)  <br/>
 
 
 

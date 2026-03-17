@@ -71,7 +71,7 @@ public class SpringbootLoadmyprofilesApplication {
 
 　　如果我们只是在业务中需要用到自定义配置文件的值，这样引入并没有什么问题，但外部配置是一些启动项，SpringBoot官网并不推荐我们这样干 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702170155107-1983770978.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702170155107-1983770978.png)  <br/>
 
 　　虽然在@SpringBootApplication上使用@PropertySource似乎是在环境中加载自定义资源的一种方便而简单的方法，但我们不推荐使用它，因为SpringBoot在刷新应用程序上下文之前就准备好了环境。使用@PropertySource定义的任何键都加载得太晚，无法对自动配置产生任何影响。 <br/>
 
@@ -85,11 +85,11 @@ public class SpringbootLoadmyprofilesApplication {
 
 　　Customize the Environment or ApplicationContext Before It Starts：[https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/#howto-customize-the-environment-or-application-context](https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/#howto-customize-the-environment-or-application-context) <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702170624164-452322214.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702170624164-452322214.png)  <br/>
 
 　　官网还提供了一个列子： <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702170648034-1390470618.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702170648034-1390470618.png)  <br/>
 
 
 
@@ -164,7 +164,7 @@ org.springframework.boot.env.EnvironmentPostProcessor=cn.huanzi.qch.springbootlo
 
 　　先看一下我们的工程结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702171020070-1289990159.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702171020070-1289990159.png)  <br/>
 
 　　xxx、yyy、zzz里面就只有一个值（yyy、zzz就对应改成yyy、zzz） <br/>
 
@@ -176,13 +176,13 @@ cn.huanzi.qch.xxx=this is xxx
 
 　　如果不手动加载自定义配置文件，启动将会报错 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702171531260-1042248823.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702171531260-1042248823.png)  <br/>
 
 
 
 　　因为我们这里不是启动项，方法一、方法二启动效果都差不多 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201907/1353055-20190702171610827-1744748719.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702171610827-1744748719.png)  <br/>
 
 
 

@@ -19,7 +19,7 @@
 
 　　后端代码，跟之前差不多，响应的viewName路径，直接从业务模块开始，适配工作交给aop；两套页面，对应的业务模块，分别放在两个目录下面 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201912/1353055-20191217115123784-1415798170.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201912/1353055-20191217115123784-1415798170.png)  <br/>
 
 
 
@@ -131,7 +131,7 @@ public class IndexController {
 
 　　可以看到，已经能根据不同的UA响应不同的HTML页面，同时，只有controller中，响应值为ModeAndView的aop适配器才会进行工作 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201912/1353055-20191217120240488-1840262256.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201912/1353055-20191217120240488-1840262256.gif)  <br/>
 
 
 

@@ -19,9 +19,9 @@
 
 ### 　　目录结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418162828614-537987111.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418162828614-537987111.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418164114680-2035179176.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418164114680-2035179176.png)  <br/>
 
 
 
@@ -75,7 +75,7 @@
     });
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418162136860-310781788.jpg) ![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418162150221-2003270239.jpg) ![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418162159888-1096019981.jpg) ![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418171858078-531899123.jpg) ![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418171913397-501072046.jpg)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418162136860-310781788.jpg) ![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418162150221-2003270239.jpg) ![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418162159888-1096019981.jpg) ![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418171858078-531899123.jpg) ![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418171913397-501072046.jpg)  <br/>
 
 
 
@@ -83,7 +83,7 @@
 
 　　分为标题头部按钮操作、底部按钮操作 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200424114810404-652385204.gif) ![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418161008485-67351516.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200424114810404-652385204.gif) ![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418161008485-67351516.gif)  <br/>
 
 
 
@@ -102,13 +102,13 @@ huanzi.buttom.switch.mode=1
 
 　　1 切换立即加载初始url  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418160620144-1640198832.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418160620144-1640198832.gif)  <br/>
 
 
 
 　　2 切换仅回显页面，在当前页面点击才加载（切换为首次加载除外） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418155817817-1395272483.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418155817817-1395272483.gif)  <br/>
 
 
 
@@ -118,7 +118,7 @@ huanzi.buttom.switch.mode=1
 
 　　隐藏：mui.hideLoading(); <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418163155028-1006907532.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418163155028-1006907532.gif)  <br/>
 
 　　其他mui弹窗效果，请移步官网文档查看！ <br/>
 
@@ -126,13 +126,13 @@ huanzi.buttom.switch.mode=1
 
 ### 　　自定义封装 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418163508030-1050002114.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418163508030-1050002114.gif)  <br/>
 
 
 
 ### 　　物理按钮监听 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418174631737-599701732.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418174631737-599701732.png)  <br/>
 
 
 
@@ -165,7 +165,7 @@ huanzi.buttom.switch.mode=1
         window.NProgress.done();
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200420152841456-539527016.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200420152841456-539527016.gif)  <br/>
 
 
 
@@ -177,17 +177,17 @@ huanzi.buttom.switch.mode=1
 
 　　1、新增底部按钮动态配置，真正项目应用中，可以从数据库动态读取，这样的话后面需要调整按钮配置也不需要修改代码，直接改配置即可 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200427183652018-1249153402.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200427183652018-1249153402.png)  <br/>
 
 　　底部按钮 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200427184656246-505858890.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200427184656246-505858890.png)  <br/>
 
 
 
  　　以及对于的iframe <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200427184747132-1780545899.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200427184747132-1780545899.png)  <br/>
 
 
 
@@ -195,13 +195,13 @@ huanzi.buttom.switch.mode=1
 
 　　2、自定义弹窗，告警、确认弹窗内部调用父类显示，回调依旧执行子iframe的方法，效果就是遮阴层能后覆盖标题栏、底部按钮 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200427184601477-1448032805.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200427184601477-1448032805.gif)  <br/>
 
 
 
  　　3、优化代码main.html代码，尽量使用thymeleaf语法；开启初始化所有页面功能，页面提前加载、提高后续切换页面体验； <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200427184200038-334959752.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200427184200038-334959752.gif)  <br/>
 
 
 
@@ -211,19 +211,19 @@ huanzi.buttom.switch.mode=1
 
 　　1、优化tab页切换效果，实现过渡动画，而不是直接切换； <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202006/1353055-20200601182004465-192387753.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202006/1353055-20200601182004465-192387753.gif)  <br/>
 
 
 
 　　2、同tab页中，div窗体切换效果实现； <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202006/1353055-20200601182054905-804317260.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202006/1353055-20200601182054905-804317260.gif)  <br/>
 
 
 
 　　3、新增自定义键盘（来自大佬的开源组件分享：https://www.jianshu.com/p/cb21ca8786a4，不支持中文），主要用于输入密码等对安全行为要求较高的动作 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202006/1353055-20200601182249300-1204984047.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202006/1353055-20200601182249300-1204984047.gif)  <br/>
 
 
 
@@ -233,7 +233,7 @@ huanzi.buttom.switch.mode=1
 
 　　注意，浏览器访问需要打开控制台，切换到移动端模式，还有我们的适配器判断过于简单，有些情况下会判断错误，例如360浏览器 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202004/1353055-20200418180306923-878973716.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202004/1353055-20200418180306923-878973716.png)  <br/>
 
 　　代码其实不多，主要涉及都父、子窗口相互调用的问题，基于mui的H5套壳APP开发web框架暂时记录到这，后续再进行补充 <br/>
 

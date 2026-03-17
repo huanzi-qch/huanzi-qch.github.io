@@ -37,7 +37,7 @@
 
  　　项目结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806121324077-916773245.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806121324077-916773245.png)  <br/>
 
 
 
@@ -144,13 +144,13 @@ public class SpringbootSwagger2Application {
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806115553676-365250141.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806115553676-365250141.png)  <br/>
 
 
 
 　　<span class="http_method">  <span class="path">    /user/get/{id}  </span></span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806120157360-1754718141.png) ![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806115803294-1157308096.png) ![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806115850041-1309324364.png) ![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806115926091-510526541.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806120157360-1754718141.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806115803294-1157308096.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806115850041-1309324364.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806115926091-510526541.png)  <br/>
 
 
 
@@ -158,7 +158,7 @@ public class SpringbootSwagger2Application {
 
 　　<span class="http_method">  　　   <span class="path">    /user/list  </span></span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806120126913-1319285200.png) ![](http://huanzi.qzz.io/file-server/blog-image/201908/1353055-20190806120313843-970337911.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806120126913-1319285200.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190806120313843-970337911.png)  <br/>
 
 
 

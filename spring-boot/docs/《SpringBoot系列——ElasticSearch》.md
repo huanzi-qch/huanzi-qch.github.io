@@ -29,7 +29,7 @@
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926101441307-990874879.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926101441307-990874879.png)  <br/>
 
 
 
@@ -51,7 +51,7 @@
 
 　　注意：es5以上版本安装head需要安装node和grunt，执行 npm install -g grunt-cli 安装grunt  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926093724331-1459542692.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926093724331-1459542692.png)  <br/>
 
 
 
@@ -88,7 +88,7 @@ node.data: true
 
 　　第二步：双击elasticsearch.bat启动Elasticsearch，浏览器访问9200端口 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926101127475-806859796.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926101127475-806859796.png)  <br/>
 
 
 
@@ -102,15 +102,15 @@ node.data: true
 
 　　第四步：解压到指定文件夹下，修改Gruntfile.js 在对应的位置加上 hostname:'*' <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926093831089-361123893.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926093831089-361123893.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190925172511760-714156516.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190925172511760-714156516.png)  <br/>
 
 　　第五步：打开cmd命令行窗口 ，在解压目录下执行npm install 安装，完成后执行grunt server 或者 npm run start 运行head插件，如果运行不成功建议重新安装grunt <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926101211523-1262691462.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926101211523-1262691462.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926103638036-1468095678.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926103638036-1468095678.png)  <br/>
 
 
 
@@ -122,7 +122,7 @@ node.data: true
 
 　　打开浏览器访问9100端口 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926103217753-1577587455.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926103217753-1577587455.png)  <br/>
 
 
 
@@ -136,7 +136,7 @@ node.data: true
 
 　　注意：你的Elasticsearch和IK分词器必须版本统一 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926102602990-1581240637.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926102602990-1581240637.png)  <br/>
 
 
 
@@ -152,13 +152,13 @@ node.data: true
 
 　　解压后把文件夹复制到ES的的plugins目录下面，然后重启ES <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926102854915-1904354458.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926102854915-1904354458.png)  <br/>
 
 
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190926103053390-1675385699.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190926103053390-1675385699.png)  <br/>
 
  　　使用postman测试分词效果 <br/>
 
@@ -166,7 +166,7 @@ node.data: true
 
 　　http://localhost:9200/_analyze?analyzer=ik_max_word&text=我爱中华人民共和国 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927171117802-977342394.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927171117802-977342394.png)  <br/>
 
 ```
 {
@@ -266,7 +266,7 @@ node.data: true
 
 　　与我们之前的通用JPA差不多，风格统一，也是直接单表基础通用增删改查，一人挖井，全村喝水 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927174440140-987796454.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927174440140-987796454.png)  <br/>
 
 
 
@@ -278,7 +278,7 @@ node.data: true
 
 　　相当于数据库、数据表 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927174246680-1669134152.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927174246680-1669134152.png)  <br/>
 
 
 
@@ -290,13 +290,13 @@ node.data: true
 
 　　无id，新增 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172251357-831447215.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172251357-831447215.png)  <br/>
 
 
 
  　　有id，更新，可局部更新 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172951823-51378400.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172951823-51378400.png)  <br/>
 
 
 
@@ -308,7 +308,7 @@ node.data: true
 
 ### 　　get接口 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172523414-128139534.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172523414-128139534.png)  <br/>
 
 
 
@@ -316,7 +316,7 @@ node.data: true
 
 ### 　　delete接口 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172550262-1466621175.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172550262-1466621175.png)  <br/>
 
 
 
@@ -326,7 +326,7 @@ node.data: true
 
 　　测试list、page接口前，先调用batchSave生成测试数据 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172720477-2023955160.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172720477-2023955160.png)  <br/>
 
 
 
@@ -334,11 +334,11 @@ node.data: true
 
 　　可支持排序跟多条件等值查询 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927173321904-160053374.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927173321904-160053374.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927173415536-179371012.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927173415536-179371012.png)  <br/>
 
 
 
@@ -352,7 +352,7 @@ node.data: true
 
 　　测试list、page接口前，先调用batchSave生成测试数据 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927172723737-1984312426.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927172723737-1984312426.png)  <br/>
 
 
 
@@ -360,13 +360,13 @@ node.data: true
 
 　　page与list相似，但多了分页条件 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927173623794-418846055.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927173623794-418846055.png)  <br/>
 
 
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927173543190-1856596433.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927173543190-1856596433.png)  <br/>
 
 
 
@@ -378,11 +378,11 @@ node.data: true
 
 　　ik分词我发现了一个bug，不知道是不是我没设置对的原因，用title分词去查询的时候，小米、手机单独查是没问题，小米手机查就查不到数据 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927174011948-1942200533.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927174011948-1942200533.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927174111543-1297948248.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927174111543-1297948248.png)  <br/>
 
 
 
@@ -390,7 +390,7 @@ node.data: true
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201909/1353055-20190927173945915-1023116641.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927173945915-1023116641.png)  <br/>
 
 
 

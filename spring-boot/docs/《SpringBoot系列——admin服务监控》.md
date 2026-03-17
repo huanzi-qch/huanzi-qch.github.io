@@ -15,7 +15,7 @@
 
 　　server服务端 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617165006235-213338632.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617165006235-213338632.png)  <br/>
 
 
 
@@ -25,7 +25,7 @@
 
 　　client客户端 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617165027780-336542284.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617165027780-336542284.png)  <br/>
 
 
 
@@ -283,7 +283,7 @@ spring.boot.admin.client.password=123456
 
 　　同时创建测试接口、定时器、cache缓存、异步任务，就是为了看服务端能否监控到 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617172345897-1181181049.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617172345897-1181181049.png)  <br/>
 
 
 
@@ -324,19 +324,19 @@ public class ActuatorFilter implements Filter {
 
 　　访问服务端，需要登录 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617173134635-241532427.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617173134635-241532427.png)  <br/>
 
 
 
  　　登录上去，客户端已经注册成功 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617173242872-112644133.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617173242872-112644133.png)  <br/>
 
 
 
  　　正常监控客户端中... <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617173549433-8118254.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617173549433-8118254.gif)  <br/>
 
 
 
@@ -344,15 +344,15 @@ public class ActuatorFilter implements Filter {
 
 　　http://localhost:10011/actuator <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617173009139-707410935.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617173009139-707410935.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617173055238-1204211579.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617173055238-1204211579.png)  <br/>
 
  　　其他接口正常访问 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617185200911-1396586867.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617185200911-1396586867.png)  <br/>
 
 
 
@@ -370,9 +370,9 @@ public class ActuatorFilter implements Filter {
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174143780-1751201661.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174143780-1751201661.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174107818-1649138197.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174107818-1649138197.png)  <br/>
 
 
 
@@ -389,11 +389,11 @@ info.author=huanzi-qch
 info.version=1.0.0
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174533217-1114069379.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174533217-1114069379.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174609768-934879225.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174609768-934879225.png)  <br/>
 
 
 
@@ -401,7 +401,7 @@ info.version=1.0.0
 
  　　计划任务这里可以看到我们配置的定时器 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174803456-1252763239.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174803456-1252763239.png)  <br/>
 
 
 
@@ -409,19 +409,19 @@ info.version=1.0.0
 
 　　web映射可以看到所有的web接口 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617174905055-987481021.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617174905055-987481021.png)  <br/>
 
 
 
  　　http跟踪，可以查看具体请求的响应情况 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617181047162-1825070118.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617181047162-1825070118.png)  <br/>
 
 
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617181036065-858108727.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617181036065-858108727.png)  <br/>
 
 
 
@@ -429,13 +429,13 @@ info.version=1.0.0
 
 　　缓存菜单，可以看到我们使用到的缓存空间 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617181108769-1951012865.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617181108769-1951012865.png)  <br/>
 
 
 
  　　还可以下载jvm dump文件 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210617181232219-1006557126.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210617181232219-1006557126.png)  <br/>
 
 
 
@@ -565,7 +565,7 @@ logging.file=${log-file-path}
 
 　　实时刷新被监控的应用的服务日志，效果奈斯！ <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202108/1353055-20210812150803539-1783049495.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210812150803539-1783049495.png)  <br/>
 
 
 

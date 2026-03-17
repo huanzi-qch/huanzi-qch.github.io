@@ -245,21 +245,21 @@ class SpringBootMailServiceImpl implements SpringBootMailService {
 
 　　Simple Mail <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181114143635401-1740134390.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181114143635401-1740134390.png)  <br/>
 
 
 
 　　HTML Mail <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181114143716623-183560954.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181114143716623-183560954.png)  <br/>
 
 
 
 　　Attachments Mail  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181114143749450-1090599335.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181114143749450-1090599335.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181114143905171-1629693212.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181114143905171-1629693212.png)  <br/>
 
 
 

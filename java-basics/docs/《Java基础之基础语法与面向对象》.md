@@ -105,7 +105,7 @@
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">  4、数据类型：基本数据类型，引用数据类型</span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202306/1353055-20230608165236305-1284690537.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202306/1353055-20230608165236305-1284690537.png)  <br/>
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">  基本数据类型：4类8种</span> <br/>
 
@@ -358,7 +358,7 @@
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">  代码块：由{}括起来的一段代码</span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202306/1353055-20230608170006256-1138979736.png) ![](http://huanzi.qzz.io/file-server/blog-image/202306/1353055-20230608170017342-795914692.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202306/1353055-20230608170006256-1138979736.png) ![](https://huanzi-qch.github.io/file-server/blog-image/202306/1353055-20230608170017342-795914692.png)  <br/>
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">  　　普通代码块：方法中</span> <br/>
 
@@ -491,7 +491,7 @@
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">  import导包：导入后可以使用这个类</span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202306/1353055-20230608170426707-1945071800.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202306/1353055-20230608170426707-1945071800.png)  <br/>
 
 　　<span style="font-family: &quot;Microsoft YaHei&quot;">   </span> <br/>
 

@@ -15,17 +15,17 @@
 
 　　新建一个Maven项目，并删除src文件夹，保留pom.xml ，作为parent，当然也可以不用 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217142458121-201163155.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217142458121-201163155.png)  <br/>
 
  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217142752784-2142137010.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217142752784-2142137010.png)  <br/>
 
 
 
 　　项目结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217142936544-732148995.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217142936544-732148995.png)  <br/>
 
 
 
@@ -191,7 +191,7 @@ public class EurekaServerApplication {
 
  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217143915919-976199670.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217143915919-976199670.png)  <br/>
 
 
 
@@ -276,13 +276,13 @@ public class MyspringbootApplication{
 
 　　启动客户端服务 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217145114373-1594109770.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217145114373-1594109770.png)  <br/>
 
 
 
 　　成功在注册中心注册成功，可以对外提供服务 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217145217190-1755833915.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217145217190-1755833915.png)  <br/>
 
 
 
@@ -324,13 +324,13 @@ eureka.server.eviction-interval-timer-in-ms=10000
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217153708202-1318778607.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217153708202-1318778607.png)  <br/>
 
 
 
 　　健康检查，注册中心将死去的服务剔除 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181217153735819-1338294018.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217153735819-1338294018.png)  <br/>
 
 
 

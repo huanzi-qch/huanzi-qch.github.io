@@ -11,7 +11,7 @@
 
 ## 　　工程结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610105538330-2038419040.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610105538330-2038419040.png)  <br/>
 
 
 
@@ -105,7 +105,7 @@ spring.cache.ehcache.config=classpath:/ehcache.xml
 
 　　先写一个套tb_user表的CRUD代码 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610105640706-1929832599.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610105640706-1929832599.png)  <br/>
 
 ```
 @RestController
@@ -225,9 +225,9 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　调用save方法，key为2，value为当前tbUser对象的数据被缓存下来 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112152413-51371087.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112152413-51371087.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112200532-1643838613.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112200532-1643838613.png)  <br/>
 
 
 
@@ -237,13 +237,13 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　当我们调用get方法时，直接获取缓存数据，控制台啥也不打印，连serviceImpl的get方法都不进去（可以打断点调试） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112241777-126488047.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112241777-126488047.png)  <br/>
 
 
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112254163-66004519.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112254163-66004519.png)  <br/>
 
 
 
@@ -257,13 +257,13 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　当我们再次调用save方法更新username时，缓存数据也被更新 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112357355-2076677085.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112357355-2076677085.png)  <br/>
 
 
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112410629-420420578.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112410629-420420578.png)  <br/>
 
 
 
@@ -277,11 +277,11 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　再次调用get接口，直接返回缓存数据，后台也是方法都不进去，啥也不打印 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112447468-1800644512.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112447468-1800644512.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112454334-1032938027.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112454334-1032938027.png)  <br/>
 
 
 
@@ -293,15 +293,15 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　调用delete接口，删除数据，同时删除缓存 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112731910-70468409.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112731910-70468409.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112742587-1680383706.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112742587-1680383706.png)  <br/>
 
 
 
 　　再次调用get接口，发现缓存数据被清除，查询数据库 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112843605-1341240015.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112843605-1341240015.png)  <br/>
 
 
 
@@ -309,9 +309,9 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　首次调用list接口，key为userList的，value为用户集合数据被缓存下来，再次调用直接返回缓存数据 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112613069-1833905380.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112613069-1833905380.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112619117-847027139.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112619117-847027139.png)  <br/>
 
 
 
@@ -319,7 +319,7 @@ public class TbUserServiceImpl implements TbUserService{
 
  　　当调用save接口，数据更新，删除key为userList的缓存，再次调用list时，重新查库并设置缓存 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610112638828-667460145.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610112638828-667460145.png)  <br/>
 
 
 
@@ -331,7 +331,7 @@ public class TbUserServiceImpl implements TbUserService{
 
 　　我们先同时访问两个接口list、get，list接口2分钟后再次访问，get接口不能超过2分钟是不是访问一下，结果如预期 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202106/1353055-20210610153811048-1393976653.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210610153811048-1393976653.png)  <br/>
 
 
 

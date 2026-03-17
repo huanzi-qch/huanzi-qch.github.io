@@ -91,7 +91,7 @@ public class ZipkinServerApplication {
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223151016809-170387676.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223151016809-170387676.png)  <br/>
 
 
 
@@ -120,7 +120,7 @@ spring.sleuth.sampler.probability=1.0
 
 　　然后在自定义MyEnvironmentPostProcessor中，将配置文件加载到Environment环境中 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152041501-200057113.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152041501-200057113.png)  <br/>
 
 
 
@@ -132,29 +132,29 @@ spring.sleuth.sampler.probability=1.0
 
 　　不必启动所以服务，将测试涉及到的服务启动即可（记得启动redis、mysql服务） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152303907-34472231.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152303907-34472231.png)  <br/>
 
 
 
  　　通过zuul网关调用service-a的ribbon接口，进行测试 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152348106-1018106403.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152348106-1018106403.png)  <br/>
 
 
 
  　　访问zipkin-server服务：http://localhost:10000，跳转可视化页面，点击查询查看追踪日志 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152525045-1151702817.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152525045-1151702817.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152726814-377546663.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152726814-377546663.png)  <br/>
 
 
 
  　　如果我们关闭service-b服务 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152919683-775856220.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152919683-775856220.png)  <br/>
 
 
 
@@ -162,21 +162,21 @@ spring.sleuth.sampler.probability=1.0
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152822622-1624026473.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152822622-1624026473.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152839145-935134838.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152839145-935134838.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223152844531-1513293307.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223152844531-1513293307.png)  <br/>
 
 
 
  　　还可以查看请求中的服务依赖关系 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202112/1353055-20211223153013128-1711109074.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211223153013128-1711109074.png)  <br/>
 
 
 

@@ -211,13 +211,13 @@ public class SocketClient {
 
 　　客户端 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202110/1353055-20211027175601820-1438163236.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202110/1353055-20211027175601820-1438163236.gif)  <br/>
 
 
 
 　　服务端 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202110/1353055-20211027175615646-1533326083.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202110/1353055-20211027175615646-1533326083.gif)  <br/>
 
 
 

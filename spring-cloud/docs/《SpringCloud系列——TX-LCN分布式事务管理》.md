@@ -59,11 +59,11 @@ CREATE TABLE `t_tx_exception`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190620151602501-133032900.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190620151602501-133032900.png)  <br/>
 
 　　下载官网提供的最新版的TM项目，修改配置文件（PS：由于官网的下载地址打不开，我们去GitHub上面下载例子：[https://github.com/codingapi/txlcn-demo](https://github.com/codingapi/txlcn-demo)），参考txlcn-demo-tm工程，在我们之前的项目下面创建一个springboot项目叫txlcn-tm <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190621110831445-823989055.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190621110831445-823989055.png)  <br/>
 
 　　创建好springboot项目后，参照例子修改pom.xml文件 <br/>
 
@@ -175,7 +175,7 @@ public class TxlcnTmApplication {
 
 　　把我们的Redis服务运行起来，然后启动txlcn-tm，启动成功后访问tm后台管理系统，使用默认密码登录（可以配置登录密码），访问 [http://127.0.0.1:7970/admin/index.html](http://127.0.0.1:7970/admin/index.html)进入管理后台，默认密码是codingapi，我们这里配置了123456 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190621111311258-978972187.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190621111311258-978972187.png)  <br/>
 
 　　启动TM之前记得先启动我们的Redis服务，到这里，我们的tm搭建成功，更多TM介绍，请看官网TM管理手册：[https://www.txlcn.org/zh-cn/docs/manageradmin.html](https://www.txlcn.org/zh-cn/docs/manageradmin.html) <br/>
 
@@ -337,13 +337,13 @@ public interface MyspringbootFeign {
 
 　　启动所有项目，TM跟Redis服务也要记得启动 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626161522304-35481271.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626161522304-35481271.png)  <br/>
 
 
 
 　　查看TM后台，可以看到成功注册了两个TC <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626161549012-1738894976.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626161549012-1738894976.png)  <br/>
 
 
 
@@ -361,19 +361,19 @@ public interface MyspringbootFeign {
 
  　　myspringboot（A） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626163839062-1865298215.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626163839062-1865298215.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626164547364-722169914.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626164547364-722169914.png)  <br/>
 
 
 
 　　springdatejpa（B） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626163427386-643297783.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626163427386-643297783.png)  <br/>
 
  　　到这里springdatejpa（B）已经响应了user数据给myspringboot（A），而后收到回滚通知 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626164758153-304989443.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626164758153-304989443.png)  <br/>
 
 
 
@@ -391,17 +391,17 @@ public interface MyspringbootFeign {
 
 　　myspringboot（A） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626165536187-1286725135.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626165536187-1286725135.png)  <br/>
 
 　　springdatejpa（B） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626165730578-703749487.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626165730578-703749487.png)  <br/>
 
 
 
 　　具体的流程已经事务控制原理可以查看官网：[https://www.txlcn.org/zh-cn/docs/principle/control.html](https://www.txlcn.org/zh-cn/docs/principle/control.html)，这里简单的贴出官网提供的原理图： <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190626170043124-2087000738.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190626170043124-2087000738.png)  <br/>
 
 
 

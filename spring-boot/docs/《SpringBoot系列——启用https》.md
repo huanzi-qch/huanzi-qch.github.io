@@ -19,9 +19,9 @@
 keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 1024 -validity 365 -keystore d:/tomcat_https.keystore -storepass 123456
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102160552339-137858900.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160552339-137858900.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102160225900-1202288024.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160225900-1202288024.png)  <br/>
 
 　　　　-alias 别名
  　　　　-keypass 指定生成密钥的密码
@@ -52,19 +52,19 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　首先看文档说明： <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110153022977-1067002652.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153022977-1067002652.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110152844262-1851165424.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110152844262-1851165424.png)  <br/>
 
 　　在springBoot项目中的static文件夹新建，然后把文件内容复制进去 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110152938893-434798317.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110152938893-434798317.png)  <br/>
 
 　　 启动项目，访问 http://XXXX/.well-known/pki-validation/fileauth.txt，返回文件内容 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110153253194-518531434.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153253194-518531434.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110153347746-567860241.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153347746-567860241.png)  <br/>
 
 
 
@@ -74,7 +74,7 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　效果 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200110154901132-1451878650.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110154901132-1451878650.png)  <br/>
 
 
 
@@ -84,7 +84,7 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　把生成的tomcat_https.keystore放在resources里（任意安全目录都可以） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102161153484-496122920.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161153484-496122920.png)  <br/>
 
 
 
@@ -150,19 +150,19 @@ public class HttpsController {
 
 　　由于是自签名证书，浏览器不认可 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102161641784-534486042.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161641784-534486042.png)  <br/>
 
 
 
  　　选择“高级”，选择继续访问即可 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102161719512-1272732856.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161719512-1272732856.png)  <br/>
 
 
 
  　　成功访问 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102161743123-191122462.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161743123-191122462.png)  <br/>
 
 
 
@@ -176,15 +176,15 @@ public class HttpsController {
 keytool -keystore d:/tomcat_https.keystore -export -alias tomcat_https -file d:/server.cer
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102160148187-527397622.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160148187-527397622.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102160203427-1034815806.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160203427-1034815806.png)  <br/>
 
 　　双击安装，选择导入到受信任的跟证书颁发机构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102161929389-20970096.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161929389-20970096.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102164752752-1306786989.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102164752752-1306786989.png)  <br/>
 
 
 
@@ -192,7 +192,7 @@ keytool -keystore d:/tomcat_https.keystore -export -alias tomcat_https -file d:/
 
  　　这样访问就不会再阻止了，但还是显示证书无效 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102162518248-1044649358.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102162518248-1044649358.png)  <br/>
 
 
 
@@ -266,7 +266,7 @@ public class Http2Https {
 
 ### 　　效果 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/202001/1353055-20200102163247367-867579538.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102163247367-867579538.gif)  <br/>
 
 ## 　　后记 <br/>
 

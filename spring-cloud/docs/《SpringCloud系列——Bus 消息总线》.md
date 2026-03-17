@@ -90,33 +90,33 @@ spring.rabbitmq.password=guest
 
 　　启动所有项目 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120425232-1045269360.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120425232-1045269360.png)  <br/>
 
 　　Config Server访问 http://localhost:1112/myspringboot-dev.properties/ <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120533487-63525170.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120533487-63525170.png)  <br/>
 
 　　Config Server访问 http://localhost:10087/index <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120615691-484773950.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120615691-484773950.png)  <br/>
 
 　　前往GitHub修改 huanzi.qch.config.server.username: 张三2 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120725253-1861299848.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120725253-1861299848.png)  <br/>
 
 　　修改完之后回去刷新Config Server跟Config Client，server能实时更新获取最新数据，client不能实时获取最新数据，读的是缓存 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120946077-474719687.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120946077-474719687.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221120956743-303980534.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221120956743-303980534.png)  <br/>
 
 　　Config Server post调用 http://localhost:1112/actuator/bus-refresh <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221121045921-1220306363.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221121045921-1220306363.png)  <br/>
 
 　　打印空？没关系，刷新Config Client的http://localhost:10087/index，已经获取到了最新数据 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221121156123-1549845117.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221121156123-1549845117.png)  <br/>
 
 
 
@@ -126,13 +126,13 @@ spring.rabbitmq.password=guest
 
 　　登录GitHub，前往创建一个WebHook <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221121546136-1194304638.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221121546136-1194304638.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221122232086-272770268.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221122232086-272770268.png)  <br/>
 
 　　需要能被外网访问，所以这里演示不了... <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201812/1353055-20181221140831501-810724714.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181221140831501-810724714.png)  <br/>
 
 　　这样，在每次push之后都会触发webhook事件，从而实现Config配置中心的自动刷新 <br/>
 

@@ -23,7 +23,7 @@
 
 　　首先我们创建一个单点登录服务sso-server，并在eureka上注册（创建项目请参考之前的SpringCloud系列博客跟 [SpringBoot系列——Redis](https://www.cnblogs.com/huanzi-qch/p/10239888.html)） <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110111418596-1142289189.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110111418596-1142289189.png)  <br/>
 
 　　login.html <br/>
 
@@ -284,39 +284,39 @@ zuul.sensitive-headers=
 
 　　<span style="color: rgba(255, 0, 0, 1)">  记得启动我们的RabbitMQ服务和Redis服务！</span> <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110114826142-1122186552.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110114826142-1122186552.png)  <br/>
 
 　　刚开始，没有cookie且无Redis的情况下，浏览器访问 http://localhost:10010/myspringboot/feign/ribbon，被zuul-server拦截重定向到sso-server登录页面 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110115042268-801569546.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110115042268-801569546.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110115501878-1495911057.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110115501878-1495911057.gif)  <br/>
 
 　　开始登录校验，为了方便演示，我将密码的type改成text <br/>
 
 　　登录失败，返回提示语 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120052977-1768462849.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120052977-1768462849.gif)  <br/>
 
 　　登录成功，重定向到之前的请求 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120201029-1145102004.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120201029-1145102004.gif)  <br/>
 
  　　cookie的值，以及过期时间 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120315739-777209532.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120315739-777209532.png)  <br/>
 
 　　3分钟后我们再次访问 http://localhost:10010/myspringboot/feign/ribbon，cookie、Redis失效，需要从新登录 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120459318-1283913206.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120459318-1283913206.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120558640-1752946098.png)  <br/>
-
-
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120558640-1752946098.png)  <br/>
 
 
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190110120443863-625026707.png)  <br/>
+
+
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190110120443863-625026707.png)  <br/>
 
 ## 　　扩展 <br/>
 
@@ -357,14 +357,14 @@ zuul.sensitive-headers=
 
 　　如果我们按照常规去引入项目的静态资源文件，thymeleaf的@{取到的值是http://localhost:10010/，因此会报404   注：这两个工程的静态文件目录如下： <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115172043553-844650900.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115172043553-844650900.png)  <br/>
 
 ```
 <!-- 引入静态资源 -->
 <script th:src="@{/js/jquery-1.9.1.min.js}" type="application/javascript"></script>
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115103152001-2108428256.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115103152001-2108428256.png)  <br/>
 
 　　本来想通过Zuul去转发请求，结果还是不行，上网一查发现有人说：zuul我们只用来做服务的转发，不用做页面的转发。页面中包含的静态资源没办法直接通过zuul获取对应的静态资源。 <br/>
 
@@ -373,7 +373,7 @@ zuul.sensitive-headers=
 <script th:src="@{/myspringboot/js/jquery-1.9.1.min.js}" type="application/javascript"></script>
 ```
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115105941741-42813343.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115105941741-42813343.png)  <br/>
 
  　　经过考虑，我这里采用读取当前页面文件所在的工程的静态文件，就不经过Zuul了，先在当前工程里声明好baseUrl，通过使用thymeleaf取国际化文件的方法，取到当前页面文件所在工程的baseUrl路径（需要先实现springboot国际化，具体配置请戳之前的博客：[SpringBoot系列——i18n国际化](https://www.cnblogs.com/huanzi-qch/p/10000324.html)），并且各自在自己工程的国际化文件新增： <br/>
 
@@ -416,7 +416,7 @@ baseUrl=http://localhost:10088
 
  　　引入成功 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115172318552-76863272.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115172318552-76863272.png)  <br/>
 
 
 
@@ -464,11 +464,11 @@ public interface MyspringbootFeign {
 
 　　整体效果如下 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115173320643-928296753.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115173320643-928296753.gif)  <br/>
 
 　　如果accessToken失效了，这接口将无法访问，需要刷新重新登录 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201901/1353055-20190115173624368-1425452721.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190115173624368-1425452721.png)  <br/>
 
 
 
@@ -490,7 +490,7 @@ public interface MyspringbootFeign {
 
 　　跳转登录页面，参数url已经丢失了原先的参数?username=aaa&password=123：http://localhost:10010/sso-server/sso/loginPage?url=http://localhost:10010/sso-server/sso/redis/hasKey <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190625105833360-1187341492.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190625105833360-1187341492.gif)  <br/>
 
 
 
@@ -566,13 +566,13 @@ public interface MyspringbootFeign {
 
 　　给大家看一下改动后的效果 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190625110735716-428509483.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190625110735716-428509483.gif)  <br/>
 
 
 
 　　如果是其他请求 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201906/1353055-20190625112027902-1199523674.gif)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190625112027902-1199523674.gif)  <br/>
 
 　　PS：其实这样响应处理一点都不友好，应该做如下约定：后端响应特定状态码（例如：301）时，同时会响应对应的url链接（例如系统首页链接），前端发起post、delete请求等需要进行判断，然后在js进行页面跳转，这样的话用户的体验会更好，系统更加健全 <br/>
 

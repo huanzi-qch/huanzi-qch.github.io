@@ -9,7 +9,7 @@
 
 　　工程结构 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122115205742-413596179.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122115205742-413596179.png)  <br/>
 
 　　每个文件里面的值（按工程结构循序从上往下） <br/>
 
@@ -211,33 +211,33 @@ public class I18nUtil {
 
 　　默认 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122120908208-356777818.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122120908208-356777818.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122120932039-1093827669.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122120932039-1093827669.png)  <br/>
 
 
 
 　　英文 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122120955964-307469292.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122120955964-307469292.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122121010935-1796870258.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122121010935-1796870258.png)  <br/>
 
 
 
 　　中文 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122121032187-660620594.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122121032187-660620594.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122121042787-93161835.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122121042787-93161835.png)  <br/>
 
 
 
 　　繁体 <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122121059461-1900973506.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122121059461-1900973506.png)  <br/>
 
-![](http://huanzi.qzz.io/file-server/blog-image/201811/1353055-20181122121113102-1418807228.png)  <br/>
+![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181122121113102-1418807228.png)  <br/>
 
 
 
