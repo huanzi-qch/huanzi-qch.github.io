@@ -11,19 +11,19 @@
 
 　　首先打开openjdk官网（[http://openjdk.java.net](http://openjdk.java.net/)），点击installing，然后再跳转到下载页面（[http://jdk.java.net](http://jdk.java.net/)） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507153959097-619630076.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507153959097-619630076.png)  <br/>
 
 
 
  　　点击最新idk，跳转到详情页，点击zip下载压缩包，不用安装，解压即可使用，不想下载最新版，也可以点击左边最下方的Archive下载其他版本jdk <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507154530483-316016895.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507154530483-316016895.png)  <br/>
 
 
 
  　　解压后效果大概如下 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507154714998-1905186240.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507154714998-1905186240.png)  <br/>
 
 
 
@@ -31,13 +31,13 @@
 
 　　新增一个系统变量JAVA_HOME <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507154859953-1590035951.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507154859953-1590035951.png)  <br/>
 
 
 
 　　在Path变量里面添加 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507154954609-465745733.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507154954609-465745733.png)  <br/>
 
 
 
@@ -45,13 +45,13 @@
 
  　　打开cmd验证 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507155132516-1452525359.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507155132516-1452525359.png)  <br/>
 
 
 
 　　除了添加到环境变量的jdk，idea也能检测到本地解压出来的jdk <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507164948312-624382849.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507164948312-624382849.png)  <br/>
 
 
 
@@ -63,13 +63,13 @@
 
 　　打开JetBrains官网（[https://www.jetbrains.com/zh-cn/idea/download/#section=windows](https://www.jetbrains.com/zh-cn/idea/download/#section=windows)）下载旗舰版 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507155627077-242834873.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507155627077-242834873.png)  <br/>
 
 
 
 　　安装后可以使用开源项目申请激活码，或者百度破解教程进行破解  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507155812857-1257262502.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507155812857-1257262502.png)  <br/>
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507160458206-1590822331.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507160458206-1590822331.png)  <br/>
 
 
 
@@ -99,13 +99,13 @@
 
 　　打开官网，点击左边download（[https://maven.apache.org/download.cgi#](https://maven.apache.org/download.cgi#)），下载最新版本，或者点击下方archives下载历史版本 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507160906201-1386158256.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507160906201-1386158256.png)  <br/>
 
 
 
  　　解压后大概如下 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507161109687-287127238.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507161109687-287127238.png)  <br/>
 
 
 
@@ -117,13 +117,13 @@
 
 　　新增一个MAVEN_HOME <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507161208491-2110848147.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507161208491-2110848147.png)  <br/>
 
 
 
  　　Path新增 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507161259593-211413334.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507161259593-211413334.png)  <br/>
 
 
 
@@ -131,7 +131,7 @@
 
 　　cmd验证 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507161354616-1191048849.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507161354616-1191048849.png)  <br/>
 
 
 
@@ -158,7 +158,7 @@
 
 　　修改idea默认maven配置 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507161627838-1968785188.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507161627838-1968785188.png)  <br/>
 
 
 
@@ -170,17 +170,17 @@
 
 　　官网：[https://tomcat.apache.org](https://tomcat.apache.org/)，点击想要下载的版本 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507162400042-1749153673.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507162400042-1749153673.png)  <br/>
 
 　　点击下载压缩包 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507162445352-457983375.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507162445352-457983375.png)  <br/>
 
 
 
  　　解压即用，解压后大致如下 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507162532992-1524390285.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507162532992-1524390285.png)  <br/>
 
 
 
@@ -192,13 +192,13 @@
 
 　　官网下载地址：[http://nginx.org/en/download.html](http://nginx.org/en/download.html)，下载压缩包 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507162756968-1896368675.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507162756968-1896368675.png)  <br/>
 
 
 
 　　解压后 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507162837334-999117805.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507162837334-999117805.png)  <br/>
 
 
 
@@ -210,19 +210,19 @@
 
 　　官网下载安装包：[https://git-scm.com](https://git-scm.com/)，运行按默认配置安装即可 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507163329433-2139736238.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507163329433-2139736238.png)  <br/>
 
 
 
  　　cmd验证 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507163526757-785631019.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507163526757-785631019.png)  <br/>
 
 
 
  　　idea进行git配置 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507163638892-862486120.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507163638892-862486120.png)  <br/>
 
 
 
@@ -234,13 +234,13 @@
 
 　　官网下载地址：[https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)（往下拉还可以下载对应语言包），一步步安装即可 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507163943646-810875919.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507163943646-810875919.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202205/1353055-20220507164226246-389987544.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202205/1353055-20220507164226246-389987544.png)  <br/>
 
 
 

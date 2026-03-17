@@ -11,7 +11,7 @@
 
 　　流按数据单元可分为：字节/字符流 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106164428714-697163213.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106164428714-697163213.png)  <br/>
 
 
 
@@ -58,9 +58,9 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106165409160-884828492.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106165409160-884828492.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106165346530-721965181.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106165346530-721965181.png)  <br/>
 
 
 
@@ -117,13 +117,13 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106165631619-762993592.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106165631619-762993592.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106165658809-1476977642.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106165658809-1476977642.png)  <br/>
 
 
 
@@ -181,19 +181,19 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106165957070-1317322921.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106165957070-1317322921.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106170019155-126998794.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106170019155-126998794.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106170050664-1578025947.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106170050664-1578025947.png)  <br/>
 
 
 
@@ -255,7 +255,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220106170424352-2028342189.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220106170424352-2028342189.png)  <br/>
 
 
 

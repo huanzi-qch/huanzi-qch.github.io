@@ -124,7 +124,7 @@ public class LogAspect {
 
 　　访问获取所有用户接口 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181106170723663-1362762645.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181106170723663-1362762645.png)  <br/>
 
 
 

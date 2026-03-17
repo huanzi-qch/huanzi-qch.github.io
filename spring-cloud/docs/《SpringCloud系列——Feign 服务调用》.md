@@ -193,34 +193,34 @@ public class MyspringbootApplication{
 
 　　成功注册两个服务 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181217174438960-85592075.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181217174438960-85592075.png)  <br/>
 
 
 
 　　成功调用 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218163750980-56676922.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218163750980-56676922.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218104611467-2135591967.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218104611467-2135591967.png)  <br/>
 
 
 ## 　　报错记录 <br/>
 
 　　1、启动时报了个SQL错误 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218164020273-713670614.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218164020273-713670614.png)  <br/>
 
 　　解决：配置文件连接数据时指定serverTimezone=GMT%2B8 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218164249732-623176683.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218164249732-623176683.png)  <br/>
 
 
 
 　　2、当我将之前搭好的一个springboot-springdata-jpa整合项目在eureka注册时出现了一个报错 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218105848199-393952351.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218105848199-393952351.png)  <br/>
 
 　　然后在网上查了下说是因为springboot版本问题（请戳：[http://www.cnblogs.com/hbbbs/articles/8444013.html](http://www.cnblogs.com/hbbbs/articles/8444013.html)），之前这个项目用的是2.0.1.RELEASE，现在要在eureka注册，pom引入了就出现了上面的报错 <br/>
 

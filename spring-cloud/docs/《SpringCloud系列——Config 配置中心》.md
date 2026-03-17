@@ -13,7 +13,7 @@
 
 　　首先我们基于之前的代码，在springCloud工程下面新建一个Config Server，是一个springboot项目，并且在Eureka上面注册服务（还不会服务注册与发现的，请戳：[SpringCloud系列——Eureka 服务注册与发现](https://www.cnblogs.com/huanzi-qch/p/10131985.html)），本例使用的是GitHub <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220115447632-1700182145.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220115447632-1700182145.png)  <br/>
 
 　　maven引jar <br/>
 
@@ -27,7 +27,7 @@
 
 　　登录GitHub，新建一个public仓库：config-server，并且添加测试项目对应的配置文件：myspringboot-dev.properties，并设置几个值 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220120244364-371077329.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220120244364-371077329.png)  <br/>
 
 　　配置文件 <br/>
 
@@ -74,7 +74,7 @@ public class ConfigServerApplication {
 /{application}-{profile}.properties
 /{label}/{application}-{profile}.properties <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220120742933-1470393603.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220120742933-1470393603.png)  <br/>
 
 　　解决中文乱码，参考：https://blog.csdn.net/sinat_38843093/article/details/79960777 <br/>
 
@@ -120,9 +120,9 @@ org.springframework.boot.env.PropertySourceLoader=cn.huanzi.qch.config.configser
 
 　　重新启动项目，在自定义解析器后进行断点调试，发现解析的时候中文乱码问题得以解决，但响应回去还是乱码 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220121610987-915192934.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220121610987-915192934.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220121712329-1904066888.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220121712329-1904066888.png)  <br/>
 
 　　解决http响应中文乱码问题 <br/>
 
@@ -138,15 +138,15 @@ server.tomcat.uri-encoding=UTF-8
 
 　　最终效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220121430338-1936394793.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220121430338-1936394793.png)  <br/>
 
  　　我们去GitHub修改配置中心的值，看下config server能不能实时获取最新数据 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220121948846-77063093.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220121948846-77063093.png)  <br/>
 
 　　改完后刷新http://localhost:1112/myspringboot-dev.properties/，配置中心可以实时获取最新数据 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220122020566-2026455732.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220122020566-2026455732.png)  <br/>
 
 
 
@@ -242,7 +242,7 @@ spring.cloud.config.discovery.enabled=true
 #spring.cloud.config.uri=http://localhost:1112/
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220131853218-442184453.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220131853218-442184453.png)  <br/>
 
 　　测试 <br/>
 
@@ -274,19 +274,19 @@ public class MyspringbootApplication{
 
 　　查看启动日志，客户端已经发现了配置中心，并且从配置中心发现了myspringboot配置文件 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220132643751-1003675600.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220132643751-1003675600.png)  <br/>
 
 　　访问http://localhost:10087/index，值已经取到了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220132723799-799516466.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220132723799-799516466.png)  <br/>
 
 
 
 　　其实客户端（Config Client）也是可以读取服务端（Config Server）配置文件里面的值，例如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190701171501197-2132832064.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190701171501197-2132832064.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190701171607773-702931490.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190701171607773-702931490.png)  <br/>
 
 　　客户端（Config Client）是可以读取到这个值的，由此可见，是客户端是读取了服务端的数据，而服务端负责实时获取GitHub上面的数据 <br/>
 
@@ -335,7 +335,7 @@ public class MyspringbootApplication{
 
 　　启动后查看日志发现，actuator有个基础路径/actuator，同时还暴露了两个终端（不知道是哪两个端点...） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220134335446-493143227.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220134335446-493143227.png)  <br/>
 
 　　但是当我们post访问http://localhost:10087/actuator/refresh时，报404，这是什么回事？ <br/>
 
@@ -376,11 +376,11 @@ var Ajax={
 Ajax.post("http://localhost:10087/actuator/refresh",null,function(data){console.log(data)})
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220134644023-399020788.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220134644023-399020788.png)  <br/>
 
 　　经过层层查找，最后在帮助文档发现：默认情况下，自Spring Boot 2.0以来，默认情况下不会公开Actuator端点，需要手动暴露端点 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220135101077-211153809.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220135101077-211153809.png)  <br/>
 
 　　配置文件暴露端点 <br/>
 
@@ -393,15 +393,15 @@ management.endpoints.web.exposure.include=refresh
 
 　　访问测试接口，还是张三1 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220135634872-654400342.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220135634872-654400342.png)  <br/>
 
 　　post调用refresh <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220135706286-2092417128.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220135706286-2092417128.png)  <br/>
 
 　　刷新，数据更新 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220135740045-585843644.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220135740045-585843644.png)  <br/>
 
 
 
@@ -411,7 +411,7 @@ management.endpoints.web.exposure.include=refresh
 
 　　调用refresh报404的时候，百度查找都是说默认安全拦截，配置关闭：management.security.enabled=false，配置上去的时候发现报错，波浪线，被弃用了， <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220142539943-1375181306.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220142539943-1375181306.png)  <br/>
 
 　　最后还是靠Google，在知乎（[https://zhuanlan.zhihu.com/p/34784934](https://zhuanlan.zhihu.com/p/34784934)）上面找到了答案 <br/>
 
@@ -423,11 +423,11 @@ management.endpoints.web.exposure.include=refresh
 
 　　同样的关键字，Google搜出来的第一个就能解决问题  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220142930636-148210212.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220142930636-148210212.png)  <br/>
 
 　　而垃圾百度，没一个可以... <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181220143040661-72684610.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181220143040661-72684610.png)  <br/>
 
 
 

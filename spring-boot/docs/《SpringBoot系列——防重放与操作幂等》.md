@@ -60,7 +60,7 @@
         </dependency>
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408171121175-1522889774.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408171121175-1522889774.png)  <br/>
 
 
 
@@ -291,7 +291,7 @@ View Code
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408162813517-417068331.gif)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408162813517-417068331.gif)  <br/>
 
 
 
@@ -323,7 +323,7 @@ View Code
   }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408162329052-1883725075.gif)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408162329052-1883725075.gif)  <br/>
 
 
 
@@ -351,7 +351,7 @@ View Code
   }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408162427552-1054891426.gif)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408162427552-1054891426.gif)  <br/>
 
 
 
@@ -441,19 +441,19 @@ View Code
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408163528742-1485512079.gif)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408163528742-1485512079.gif)  <br/>
 
 　　for循环测试中，5个操作只有一个执行成功！ <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408163619443-2023665782.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408163619443-2023665782.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164844216-540541056.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164844216-540541056.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164955731-1608185195.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164955731-1608185195.png)  <br/>
 
 
 
@@ -483,7 +483,7 @@ View Code
 
 　　查询没什么好说的，只要数据不变，查询条件不变的情况下查询结果必然幂等 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164116622-710736413.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164116622-710736413.png)  <br/>
 
 
 
@@ -525,21 +525,21 @@ View Code
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164046833-1415367311.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164046833-1415367311.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164516651-1181788841.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164516651-1181788841.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164314069-1777308095.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164314069-1777308095.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164351479-2086841375.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164351479-2086841375.png)  <br/>
 
 
 
@@ -589,11 +589,11 @@ UPDATE table SET [... 业务字段=? ...], version = version+1 WHERE (id = ? AND
 
 　　执行更新操作前，需要重新执行插入数据 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164203930-566454572.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164203930-566454572.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220408164233918-326297836.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220408164233918-326297836.png)  <br/>
 
 
 

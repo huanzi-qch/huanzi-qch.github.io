@@ -158,7 +158,7 @@ public class TestScheduler {
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181106162551924-1387367671.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181106162551924-1387367671.png)  <br/>
 
 
 
@@ -193,7 +193,7 @@ public class TestScheduler {
 }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202103/1353055-20210309095348825-438830636.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202103/1353055-20210309095348825-438830636.png)  <br/>
 
  　　那么要如何实现定时器多线程去执行呢？ <br/>
 
@@ -220,7 +220,7 @@ public class ScheduleConfig implements SchedulingConfigurer {
 }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202103/1353055-20210309095844001-1670868177.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202103/1353055-20210309095844001-1670868177.png)  <br/>
 
 
 
@@ -253,7 +253,7 @@ public class TestScheduler {
 }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202103/1353055-20210309100730152-785135936.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202103/1353055-20210309100730152-785135936.png)  <br/>
 
 
 

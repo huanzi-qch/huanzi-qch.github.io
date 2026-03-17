@@ -9,7 +9,7 @@
 
 　　我们只需要在springboot项目的resources文件夹下面创建一个banner.txt文件，springboot启动的时候会去加载这个文件，项目结构： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181106172258270-1259442361.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181106172258270-1259442361.png)  <br/>
 
 
 
@@ -29,7 +29,7 @@
 
 ${AnsiColor.BRIGHT_YELLOW}  ////////////////////////////////////////////////////////////////////  //　　                      _ooOoo_                               //  //                         o8888888o                              //  //                         88" . "88                              //  //                         (| ^_^ |)                              //  //                         O\  =  /O                              //  //                      ____/`---'\____                           //  //                    .'  \\|     |//  `.                         //  //                   /  \\|||  :  |||//  \                        //  //                  /  _||||| -:- |||||-  \                       //  //                  |   | \\\  -  /// |   |                       //  //                  | \_|  ''\---/''  |   |                       //  //                  \  .-\__  `-`  ___/-. /                       //  //                ___`. .'  /--.--\  `. . ___                     //  //              ."" '<  `.___\_<|>_/___.'  >'"".                  //  //            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //  //            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //  //      ========`-.____`-.___\_____/___.-`____.-'========         //  //                           `=---='                              //  //      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //  //            佛祖保佑       永不宕机      永无BUG                　　//////////////////////////////////////////////////////////////////////  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181106172554326-79639619.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181106172554326-79639619.png)  <br/>
 
 　　banner.txt配置 <br/>
 
@@ -62,7 +62,7 @@ spring.banner.image.invert=false # Whether images should be inverted for dark te
 
 ## 　　效果  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181106172731074-2137398188.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181106172731074-2137398188.png)  <br/>
 
 
 
@@ -93,7 +93,7 @@ public class SpringbootWebsocketSpringdataJpaApplication {
 
  　　方法2，Edit Configurations --> 勾选Hide banner <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108102452583-1276364041.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108102452583-1276364041.png)  <br/>
 
 
 

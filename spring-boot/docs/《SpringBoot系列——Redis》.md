@@ -15,7 +15,7 @@
 
 　　下载、安装、启动好Redis服务后我们设置一个key并获取一下 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190108162637345-1420602164.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190108162637345-1420602164.png)  <br/>
 
 
 
@@ -37,7 +37,7 @@
 
 　　我们先看一下都有哪些Redis相关配置，发现好多都有默认值，而且刚好符合我们现在的测试环境，于是乎我的配置文件是这样滴.... <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190108163335710-365124919.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190108163335710-365124919.png)  <br/>
 
 ```
 server.port=1113
@@ -165,21 +165,21 @@ public class Controller {
 
 　　设置、获取缓存 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190108163652744-936641714.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190108163652744-936641714.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190108163711720-19056369.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190108163711720-19056369.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190108163726100-547374174.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190108163726100-547374174.png)  <br/>
 
 
 
  　　发布、订阅 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210618161813429-1990244564.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202106/1353055-20210618161813429-1990244564.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202106/1353055-20210618161832093-2062525508.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202106/1353055-20210618161832093-2062525508.png)  <br/>
 
 
 

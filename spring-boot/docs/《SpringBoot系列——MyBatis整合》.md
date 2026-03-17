@@ -338,7 +338,7 @@ public class UserServiceImpl implements UserService {
 
 　　工程结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204142636570-1572185557.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204142636570-1572185557.png)  <br/>
 
 　　mapper.java <br/>
 
@@ -403,7 +403,7 @@ public interface UserMapper {
 
 　　加多了mybatis相关的XML配置文件 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204155613196-682690846.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204155613196-682690846.png)  <br/>
 
 
 
@@ -508,7 +508,7 @@ public interface UserMapper {
 
 　　逆向工程项目结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181208140030758-379782540.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181208140030758-379782540.png)  <br/>
 
 　　逆向工程配置文件genreatorConfig.xml,名字无所谓,只要在java程序中作为file传入就好  （存放生成文件的对应的包要提前建好，否则会找不到） <br/>
 
@@ -607,7 +607,7 @@ public class GeneratorSqlmap {
 
 　　生成后总体的效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181208140502790-782402552.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181208140502790-782402552.png)  <br/>
 
 
 
@@ -615,11 +615,11 @@ public class GeneratorSqlmap {
 
 　　数据库字段如果是有大写字母，逆向工程生成的实体类中的属性全都是小写 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181208141219617-450021518.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181208141219617-450021518.png)  <br/>
 
 　　数据库字段如果有下划线，逆向工程生成的实体类中下划线后面的字母会以大写开头 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181208141446478-1810145546.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181208141446478-1810145546.png)  <br/>
 
 ```
 public class TUser {
@@ -2312,19 +2312,19 @@ PageInfo<TbItem> pageInfo = new PageInfo<>(list);
 
 　　insert接口 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204163242984-836187605.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204163242984-836187605.png)  <br/>
 
 　　update接口 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204163321514-1769867766.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204163321514-1769867766.png)  <br/>
 
 　　select接口 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204163346493-2052764678.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204163346493-2052764678.png)  <br/>
 
 　　delete接口 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181204163415931-2120138640.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181204163415931-2120138640.png)  <br/>
 
 ## 　　后记 <br/>
 

@@ -123,11 +123,11 @@ spring:
 
 　　代码布局与jpa的风格一致 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825174328532-461550145.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825174328532-461550145.png)  <br/>
 
 　　接口也一样 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825174509503-1325408373.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825174509503-1325408373.png)  <br/>
 
 
 
@@ -139,9 +139,9 @@ spring:
 
 　　MP原生的并不适合我们，我们要新建自定义模板，编写代码生成器 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825174735798-885140931.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825174735798-885140931.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825182848738-321924940.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825182848738-321924940.png)  <br/>
 
 
 
@@ -149,7 +149,7 @@ spring:
 
  　　运行代码生成器即可生成后端代码，代码风格与我们之前的jpa高度一致，同样是封装一套通用CRUD、page分页接口，单表继承实现快速开发 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825174957267-1408569490.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825174957267-1408569490.png)  <br/>
 
 
 
@@ -159,7 +159,7 @@ spring:
 
 　　解决：“\”字符换成 File.separator 即可 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202010/1353055-20201030150210150-1381392793.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202010/1353055-20201030150210150-1381392793.png)  <br/>
 
 
 
@@ -175,7 +175,7 @@ spring:
 
 　　get接口：http://localhost:10102/tbUser/get/2 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825175123190-2134764015.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825175123190-2134764015.png)  <br/>
 
 
 
@@ -183,7 +183,7 @@ spring:
 
  list接口：http://localhost:10102/tbUser/list、http://localhost:10102/tbUser/list?id=2 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825175255737-1767524206.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825175255737-1767524206.png)  <br/>
 
 
 
@@ -191,23 +191,23 @@ spring:
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825175233545-606234831.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825175233545-606234831.png)  <br/>
 
 
 
  page接口分页、排序：http://localhost:10102/tbUser/page?page=1&rows=3&sidx=id&sord=desc <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825175337536-648178679.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825175337536-648178679.png)  <br/>
 
 
 
 save有id，更新：http://localhost:10102/tbUser/save?id=2&username=huanzixxxx <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825181007651-2094593676.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825181007651-2094593676.png)  <br/>
 
  save无id，新增：http://localhost:10102/tbUser/save?username=huanziyyy&password=000000&created=2020-08-16%2019:56:04 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825180813991-1404566556.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825180813991-1404566556.png)  <br/>
 
 
 
@@ -215,7 +215,7 @@ save有id，更新：http://localhost:10102/tbUser/save?id=2&username=huanzixxxx
 
 　　delete删除：http://localhost:10102/tbUser/delete/14 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200825181110361-460176227.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200825181110361-460176227.png)  <br/>
 
 
 
@@ -289,7 +289,7 @@ public class TbUserServiceImpl  extends CommonServiceImpl<TbUserVo,TbUser>  impl
 
 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202112/1353055-20211201113427412-862885204.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202112/1353055-20211201113427412-862885204.png)  <br/>
 
 
 

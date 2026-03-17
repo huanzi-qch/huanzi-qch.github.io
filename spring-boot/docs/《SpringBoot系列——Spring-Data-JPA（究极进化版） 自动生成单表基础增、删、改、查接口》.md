@@ -11,7 +11,7 @@
 
 　　首先我们先创建一个新的工程项目，实现一套common代码，以便单表直接继承 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117105154731-1858025745.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117105154731-1858025745.png)  <br/>
 
 　　<span style="color: rgba(255, 0, 0, 1)">  （文末贴出CodeDOM.java完整代码）</span> <br/>
 
@@ -255,7 +255,7 @@ select * from user_tab_comments  where table_name='TB_USER'
 
 　　我们看一下系统都提供有哪些表，这...太多了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117112541385-1415474894.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117112541385-1415474894.png)  <br/>
 
 
 
@@ -658,11 +658,11 @@ select * from user_tab_comments  where table_name='TB_USER'
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117122600517-127136101.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117122600517-127136101.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117122431097-1661939436.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117122431097-1661939436.png)  <br/>
 
 ###  　　生成代码 <br/>
 
@@ -784,7 +784,7 @@ public class TbUserController extends CommonController<TbUserVo, TbUser, Integer
 
 　　我们启动项目 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117122953765-329979330.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117122953765-329979330.png)  <br/>
 
 　　依次访问基础接口： <br/>
 
@@ -792,23 +792,23 @@ public class TbUserController extends CommonController<TbUserVo, TbUser, Integer
 
 　　http://localhost:10086/tbUser/get/1 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117131852058-1211991096.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117131852058-1211991096.png)  <br/>
 
 ### 　　page接口 <br/>
 
 　　http://localhost:10086/tbUser/page?page=1&rows=10 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117132010288-182929651.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117132010288-182929651.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117131830326-1835278690.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117131830326-1835278690.png)  <br/>
 
 ###  　　list接口 <br/>
 
 　　http://localhost:10086/tbUser/list <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117131935603-1140779840.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117131935603-1140779840.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117132108366-1226429010.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117132108366-1226429010.png)  <br/>
 
 
 
@@ -820,33 +820,33 @@ public class TbUserController extends CommonController<TbUserVo, TbUser, Integer
 
 　　没有id或id不存在，为插入，http://localhost:10086/tbUser/save?username=张麻子&password=123 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117132205904-678524783.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117132205904-678524783.png)  <br/>
 
 　　id已存在，则为更新，注意：这里的更新是你的字段是什么jpa就帮你存什么，如果想要实现只更新接参对象有值的字段，应该先用id去同步数据，再更新， <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117132418971-249352696.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117132418971-249352696.png)  <br/>
 
 ### 　　delete接口 <br/>
 
 　　http://localhost:10086/tbUser/delete/15 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117132513586-1532754190.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117132513586-1532754190.png)  <br/>
 
 ## 　　扩展 <br/>
 
 　　1、有一些同学会发现，代码生成后idea并没有帮我们扫描出来，这时候我们可以手动去刷新一下，对着我们的项目右键，然后刷新 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117133058832-167645642.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117133058832-167645642.png)  <br/>
 
 　　2、个人觉得代码生成用groovy更加合适，只是我现在对它的语法使用还不熟悉，后面我们可以尝试一下使用groovy来生成代码，在idea里使用groovy生成代码： <br/>
 
 　　groovy文件的位置： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117133403916-394454028.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117133403916-394454028.png)  <br/>
 
 　　使用方法：用idea的datebase连接数据库后，对着表右击 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201901/1353055-20190117133525134-1958832617.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201901/1353055-20190117133525134-1958832617.png)  <br/>
 
 
 
@@ -1408,7 +1408,7 @@ CodeDOM
 
 　　1、发现了一个问题，我们在自动生成controller里有个地方是写死的... <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201904/1353055-20190410171233998-2104577982.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201904/1353055-20190410171233998-2104577982.png)  <br/>
 
 　　改一下，顺便升级一下CodeDOM类，我已经更新了博客文章，现在你看的文章已经是正确的，且是升级后的版本。  <br/>
 

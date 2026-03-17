@@ -29,7 +29,7 @@
 
 　　访问官网：https://start.spring.io/，下载demo，解压后就是一个完整的项目了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112145620155-1982090784.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112145620155-1982090784.png)  <br/>
 
 
 
@@ -37,23 +37,23 @@
 
 　　　　1、new Project <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112101622000-190518130.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112101622000-190518130.png)  <br/>
 
 　　　　2、填写group、artifact（注意：只能输入小写，否则提示非法字符），选择jar包就可以了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112102326660-239057544.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112102326660-239057544.png)  <br/>
 
 　　　　3、选择依赖，这里记得选择Web --> Web，支持MVC，其他的依赖支持自行选择，也可以创建之后手动添加，我这里多选择了Lombok插件，官网：https://www.projectlombok.org/ <br/>
 
 　　　　lombok是在编译时帮我们生成set、get等方法，记得给idea安装lombok插件，不然编写代码时会报错，找不到set、get等方法 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112144956927-1406245114.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112144956927-1406245114.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112103033023-1973109159.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112103033023-1973109159.png)  <br/>
 
 　　　　4、填写项目名称、路径 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112103411010-331879836.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112103411010-331879836.png)  <br/>
 
 　　项目构建成功 <br/>
 
@@ -67,7 +67,7 @@
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112145243833-1509308170.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112145243833-1509308170.png)  <br/>
 
 
 
@@ -89,7 +89,7 @@ server.port=10010
 
 　　访问成功 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112143940759-1146304765.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112143940759-1146304765.png)  <br/>
 
 ##  　　结束语 <br/>
 

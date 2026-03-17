@@ -36,7 +36,7 @@
 
 　　项目结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210521105013343-1344301506.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210521105013343-1344301506.png)  <br/>
 
 
 
@@ -236,13 +236,13 @@ public class EventPublish {
 
 　　API返回 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210521110457106-515671488.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210521110457106-515671488.png)  <br/>
 
 
 
 　　后台异步任务执行 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210521110533688-889789735.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210521110533688-889789735.png)  <br/>
 
 
 
@@ -252,13 +252,13 @@ public class EventPublish {
 
 　　API返回 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210521110732850-522246108.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210521110732850-522246108.png)  <br/>
 
 
 
  　　后台异步任务执行 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210521110751049-66832589.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210521110751049-66832589.png)  <br/>
 
 
 
@@ -376,7 +376,7 @@ public class EventPublish {
 
 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210812113324761-1200685007.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210812113324761-1200685007.png)  <br/>
 
 
 

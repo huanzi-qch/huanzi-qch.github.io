@@ -329,7 +329,7 @@ public class Model {
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202201/1353055-20220113113852949-547943.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202201/1353055-20220113113852949-547943.png)  <br/>
 
 
 
@@ -339,7 +339,7 @@ public class Model {
 
 ## 　　工程结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116153623716-1963358306.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116153623716-1963358306.png)  <br/>
 
 
 
@@ -407,15 +407,15 @@ spring:
 
 　　实体类与表数据 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116162551168-702870148.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116162551168-702870148.png)  <br/>
 
 　　tb_user <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116162608418-1072033459.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116162608418-1072033459.png)  <br/>
 
 　　tb_description <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116162623785-424778719.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116162623785-424778719.png)  <br/>
 
 
 
@@ -629,7 +629,7 @@ public class PageCondition {
 
 　　3、使用@JsonInclude注解，减少数据传输，例如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927153020300-346590013.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201909/1353055-20190927153032041-2114869398.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201909/1353055-20190927153020300-346590013.png) ![](https://img2018.cnblogs.com/blog/1353055/201909/1353055-20190927153032041-2114869398.png)  <br/>
 
 
 
@@ -831,7 +831,7 @@ public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecifi
 
 　　http://localhost:10086/springboot/user/get/1 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116170633099-2058663520.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116170633099-2058663520.png)  <br/>
 
 
 
@@ -839,11 +839,11 @@ public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecifi
 
 　　http://localhost:10086/springboot/user/list <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116170346125-735079235.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116170346125-735079235.png)  <br/>
 
  　　http://localhost:10086/springboot/user/list?username=张三 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116170451698-974129138.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116170451698-974129138.png)  <br/>
 
 
 
@@ -851,11 +851,11 @@ public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecifi
 
 　　http://localhost:10086/springboot/user/page?page=1&rows=10 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116170804913-752893624.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116170804913-752893624.png)  <br/>
 
 　　 http://localhost:10086/springboot/user/page?page=1&rows=10&username=张三 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116170853682-2083223409.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116170853682-2083223409.png)  <br/>
 
 
 
@@ -863,17 +863,17 @@ public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecifi
 
 　　没有id或id不存在，为插入，http://localhost:10086/springboot/user/save?username=张麻子&password=123 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116171205890-2140993789.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116171205890-2140993789.png)  <br/>
 
 　　id已存在，则为更新，注意：这里的更新是你的字段是什么jpa就帮你存什么，如果想要实现只更新接参对象有值的字段，应该先用id去同步数据，再更新，http://localhost:10086/springboot/user/save?id=1&username=张三1&password=666 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116171350049-1564110899.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116171350049-1564110899.png)  <br/>
 
 　　delete接口 <br/>
 
 　　http://localhost:10086/springboot/user/delete/6 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116171518025-2022708503.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116171518025-2022708503.png)  <br/>
 
 
 
@@ -881,7 +881,7 @@ public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecifi
 
 　　http://localhost:10086/springboot/user/getAllUser <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181116171652206-355791996.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181116171652206-355791996.png)  <br/>
 
 ## 　　后记 <br/>
 
@@ -976,11 +976,11 @@ public class CopyUtil {
 
 　　虽然代码先执行super.save()，但这个保存事务会在最后执行提交 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190621163322372-1170815898.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190621163322372-1170815898.png)  <br/>
 
 　　我们期待的事务顺序应该是这样 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190621163413612-2080497104.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190621163413612-2080497104.png)  <br/>
 
 　　最后我是直接使用在service层注入dao层，直接调用dao.save()，事务处理就与我们期待的一样了 <br/>
 
@@ -1004,7 +1004,7 @@ select * from super_search_ucid  where 1 = 1  and game_id = '6' AND 7645=IF((ORD
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201910/1353055-20191024153125621-577870860.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201910/1353055-20191024153125621-577870860.png)  <br/>
 
 
 
@@ -1022,7 +1022,7 @@ select * from super_search_ucid  where 1 = 1  and game_id = '6' AND 7645=IF((ORD
 
 　　经实测，这个SQL在生产上执行耗时一百多秒都没响应，导致数据库连接池的连接线程一直被占用，没有空闲的可以被调用导致连接超时 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201910/1353055-20191024153525688-164952005.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201910/1353055-20191024153525688-164952005.png)  <br/>
 
 
 

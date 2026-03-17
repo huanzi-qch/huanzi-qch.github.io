@@ -137,11 +137,11 @@ The log message. 日志消息。 <br/>
 
 　　重新启动项目 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190617113139429-51053269.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190617113139429-51053269.png)  <br/>
 
 　　打开ims.log <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190617113240404-1414265212.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190617113240404-1414265212.png)  <br/>
 
 
 
@@ -215,9 +215,9 @@ logging:
 
 　　启动项目，去到${user.home}当前服务器用户主目录，日志按日期进行产生，如果项目产生的日志文件比较大，还可以按照小时进行.log文件的生成　　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190617153606264-445642082.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190617153637373-1789452695.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190617153606264-445642082.png) ![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190617153637373-1789452695.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190617153831572-1753420413.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190617153831572-1753420413.png)  <br/>
 
 　　<span style="color: rgba(255, 0, 0, 1)">   　　2021-02-24更新：</span> <br/>
 
@@ -509,7 +509,7 @@ public class LoggingWSServer {
 
 ### 　　效果展示 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190618142537223-1404027822.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190618142537223-1404027822.gif)  <br/>
 
 
 
@@ -539,19 +539,19 @@ log.error("XXX报错",e);
 
  　　主要修改： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190703150122687-1619103446.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190703150122687-1619103446.png)  <br/>
 
 　　效果： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190703150029313-795751795.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190703150029313-795751795.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190703150211887-1868525048.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190703150211887-1868525048.png)  <br/>
 
 
 
 　　2019-08-12补充：我发现有时候显示的时候，换行不太准确，我们原先是在行末追加<br/>，但有时候读取出来的一行记录是自动换行后的数据，页面显示效果很丑 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190812145248755-1839055438.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190812145248755-1839055438.png)  <br/>
 
 
 
@@ -559,15 +559,15 @@ log.error("XXX报错",e);
 
 　　因此我改成用正则（[\d+][\d+][\d+][\d+]-[\d+][\d+]-[\d+][\d+] [\d+][\d+]:[\d+][\d+]:[\d+][\d+]）去匹配日期，然后再对应的起始下标插入<br/>，从而达到与控制台输出类似的效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190812144350831-1811117665.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190812144350831-1811117665.png)  <br/>
 
  　　匹配、插入结果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190812144235035-282587785.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190812144235035-282587785.png)  <br/>
 
 　　页面效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190812144718319-936288076.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190812144718319-936288076.png)  <br/>
 
 
 
@@ -795,9 +795,9 @@ server.tomcat.accesslog.suffix=.log
 
 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200804121724438-1186384775.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200804121724438-1186384775.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202008/1353055-20200804121748435-2016629273.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202008/1353055-20200804121748435-2016629273.png)  <br/>
 
 
 
@@ -819,11 +819,11 @@ server.tomcat.accesslog.suffix=.log
 
 　　修改前 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210720121252557-1389187172.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210720121252557-1389187172.png)  <br/>
 
 　　修改后 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210720121210372-1385804165.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210720121210372-1385804165.png)  <br/>
 
  　　如果要用.%i.log，rollingPolicy需要替换class： <br/>
 

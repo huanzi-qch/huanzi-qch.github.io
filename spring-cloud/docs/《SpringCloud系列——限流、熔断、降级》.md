@@ -95,7 +95,7 @@ public class RateLimiter {
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190619172647484-1924740585.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190619172647484-1924740585.gif)  <br/>
 
 　　在SpringCloud分布式下实现限流，需要把令牌桶的维护放到一个公共的地方，比如Zuul路由，当然也可以同时针对具体的每个服务进行单独限流 <br/>
 
@@ -159,7 +159,7 @@ public class AccessFilter extends ZuulFilter {
 
 　　按照我们设置的值，一秒能处理一个请求，峰值一秒能处理两个请求，下面疯狂刷新进行测试 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190619173518415-1711267696.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190619173518415-1711267696.gif)  <br/>
 
 
 
@@ -262,7 +262,7 @@ hystrix:
 
 　　因为我们没有启动Redis，报错，但我们进行容错处理，所以还是返回了false <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190619180840034-1612756355.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190619180840034-1612756355.png)  <br/>
 
 
 

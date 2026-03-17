@@ -15,19 +15,19 @@
 
 　　我们可以利用配置文件的分支选择，设置开发环境不进行验证码校验，测试、生产环境再开启验证码校验，这样可以大大方便我们开发调试 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722153024760-1740023259.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722153024760-1740023259.gif)  <br/>
 
 　　xxx_huanzi，普通用户权限登录 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722154822127-120733016.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722154822127-120733016.gif)  <br/>
 
 　　xxx_sa、xxx_admin，管理员权限登录 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722154845298-1962235731.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722154845298-1962235731.gif)  <br/>
 
 　　退出登录 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722154923874-2107543327.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722154923874-2107543327.gif)  <br/>
 
 
 ## 　　关键代码 <br/>
@@ -249,7 +249,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 　　引好包后，使用我们的通用后台接口与代码自动生成工具，运行main方法直接生成这六个表的后台代码（不知道怎么操作的请看我之前的博客：[SpringBoot系列——Spring-Data-JPA（究极进化版） 自动生成单表基础增、删、改、查接口](https://www.cnblogs.com/huanzi-qch/p/10281773.html)） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722151815355-1720509912.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722151815355-1720509912.png)  <br/>
 
 
 
@@ -261,7 +261,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 　　由此也扩展出了用户认证处理、密码处理、登录成功处理、登录失败处理、验证码处理、errorPage处理，这些我就不贴出来了，大家自己去看代码　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722151613785-1900773745.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722151613785-1900773745.png)  <br/>
 
 ```
 package cn.huanzi.qch.springbootsecurity.config;
@@ -343,11 +343,11 @@ SecurityConfig.java
 
  　　这只是一个简单的演示，数据都是直接在数据库插入的，应该做成在页面进行管理，比如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722155805579-536150460.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722155805579-536150460.png)  <br/>
 
 　　更多的功能我就不展开了，大家直接进行扩展，本文就记录到这，有什么问题以后再进行补充，具体的代码已经放到GitHub、码云上了，SQL文件我也放在了里面， <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190722161117301-1653686358.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190722161117301-1653686358.png)  <br/>
 
 
 

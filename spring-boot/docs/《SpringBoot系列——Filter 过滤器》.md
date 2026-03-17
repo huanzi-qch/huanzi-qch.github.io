@@ -50,7 +50,7 @@ public class TestFilter implements Filter {
 
 　　查看日志可以发现，SpringBoot已经帮我们注入了一个filter，拦截路径是/*，拦截所有，如果我们需要进一步拦截具体的则需要我们自己在代码里控制 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724160708938-936726348.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724160708938-936726348.png)  <br/>
 
 
 
@@ -62,7 +62,7 @@ public class TestFilter implements Filter {
 
 　　请看官网介绍：[https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/#boot-features-embedded-container-servlets-filters-listeners-scanning](https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/#boot-features-embedded-container-servlets-filters-listeners-scanning) <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724161410617-105739235.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724161410617-105739235.png)  <br/>
 
 
 
@@ -122,7 +122,7 @@ public class SpringbootFilterApplication {
 
  　　查看日志发现，以及帮我们注入了testFilter，拦截路径是/test <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724161654961-357254305.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724161654961-357254305.png)  <br/>
 
 　　只指定拦截路径，不设置filterName一样可以注入 <br/>
 
@@ -131,7 +131,7 @@ public class SpringbootFilterApplication {
 @WebFilter({"/test"})
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724162011592-100950614.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724162011592-100950614.png)  <br/>
 
 
 
@@ -199,11 +199,11 @@ public class SpringbootFilterApplication {
 
 　　但是做会注入两个bean，如果你的@WebFilter没有指定filterName或者指定的名称与类名相同，由于注入两个相同名称的bean，程序启动报错，叫我们修改其中一个的名字，或者启用覆盖bean <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724162834758-1834221605.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724162834758-1834221605.png)  <br/>
 
 　　这里建议如果你硬要采用第三种方法，最好启用覆盖，因为改名将会注入两个bean，处理逻辑一样但拦截路径不一样，这并不是我们想要的，例如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724163237065-758155391.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724163237065-758155391.png)  <br/>
 
 　　启用覆盖 <br/>
 
@@ -212,7 +212,7 @@ public class SpringbootFilterApplication {
 spring.main.allow-bean-definition-overriding=true
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190724163414928-2089008365.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190724163414928-2089008365.png)  <br/>
 
 　　PS：这里额外说一点，如果我们采用第三种方法，@ServletComponentScan放在TestFilter类上@WebFilter也会被扫描到，不需要放在启动类，第二种方法如果也这样做就不行，估计是受到了@Component注解的影响 <br/>
 

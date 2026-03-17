@@ -49,11 +49,11 @@ JSON-B <br/>
         </dependency>
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190805103016228-251844923.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190805103016228-251844923.png)  <br/>
 
 　　最终引入的依赖是 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190805104403274-1029580113.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190805104403274-1029580113.png)  <br/>
 
 
 
@@ -469,7 +469,7 @@ spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
 
 　　我们顺便来看一下在配置文件都有哪些Jackson配置，每个配置的具体功能见名思意，就不阐述了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190805102252298-1701179061.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190805102252298-1701179061.png)  <br/>
 
 
 
@@ -592,7 +592,7 @@ UserVoByJson(username=张三, password=null, createDate=null, captcha=null)
 
  　　还有一些不怎么常用的方法，比如下面这几个（除了转成Json字符串） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190805162126220-772318139.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190805162126220-772318139.png)  <br/>
 
 
 

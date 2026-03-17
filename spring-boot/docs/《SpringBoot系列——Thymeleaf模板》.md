@@ -64,7 +64,7 @@ spring.thymeleaf.view-names= # Comma-separated list of view names (patterns allo
 
 　　thymeleaf默认，页面跳转默认路径：src/main/resources/templates，静态资源默认路径：src/main/resources/static； <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108155202689-1191796547.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108155202689-1191796547.png)  <br/>
 
 
 
@@ -72,7 +72,7 @@ spring.thymeleaf.view-names= # Comma-separated list of view names (patterns allo
 
 　　我们也可以再配置文件中修改它：classpath:/view/ <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108160502107-1738951049.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108160502107-1738951049.png)  <br/>
 
 
 
@@ -175,19 +175,19 @@ spring.thymeleaf.view-names= # Comma-separated list of view names (patterns allo
 
 　　本地打开 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108164214198-960633340.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108164214198-960633340.png)  <br/>
 
 
 
 　　服务容器打开，登录失败页面效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108164006606-936007126.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108164006606-936007126.png)  <br/>
 
 
 
 　　服务容器打开，登录成功页面效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181108163916190-1510490891.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181108163916190-1510490891.png)  <br/>
 
 
 
@@ -306,11 +306,11 @@ spring.thymeleaf.view-names= # Comma-separated list of view names (patterns allo
 
 　　解决： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190822191652982-1403888902.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190822191652982-1403888902.png)  <br/>
 
 　　把/去掉就可以了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190822191636954-1426428911.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190822191636954-1426428911.png)  <br/>
 
 
 
@@ -376,7 +376,7 @@ spring.thymeleaf.view-names= # Comma-separated list of view names (patterns allo
 
 　　页面效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202104/1353055-20210430170853862-1710005981.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202104/1353055-20210430170853862-1710005981.png)  <br/>
 
 
 

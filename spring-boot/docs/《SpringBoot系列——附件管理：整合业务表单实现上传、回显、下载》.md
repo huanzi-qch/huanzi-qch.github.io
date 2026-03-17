@@ -15,7 +15,7 @@
 
 ### 　　项目结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916174127145-1602950871.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916174127145-1602950871.png)  <br/>
 
 
 
@@ -23,13 +23,13 @@
 
 　　定义模板 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916174446754-1858372178.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916174446754-1858372178.png)  <br/>
 
 
 
  　　脚本 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916174555860-2012896710.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916174555860-2012896710.png)  <br/>
 
 
 
@@ -41,7 +41,7 @@
 
 　　Vo类 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916174724757-405745729.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916174724757-405745729.png)  <br/>
 
 
 
@@ -49,7 +49,7 @@
 
 　　Controller <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916174705858-1757593823.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916174705858-1757593823.png)  <br/>
 
 
 
@@ -59,7 +59,7 @@
 
 　　test.html页面有两个测试表单，分别整合附件管理模块，需要引入在线jq、layui依赖，再引入我们的附件管理css、js脚本 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916175123355-1784744792.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916175123355-1784744792.png)  <br/>
 
 
 
@@ -77,9 +77,9 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916175705254-1862525589.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916175705254-1862525589.gif)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916175842856-1419786232.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916175842856-1419786232.png)  <br/>
 
 
 
@@ -100,7 +100,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916180325495-2038226199.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916180325495-2038226199.gif)  <br/>
 
 　　重新编辑时，删掉的附件在AttachmentVo的deletes数组中，新上传的附件在files数组中  <br/>
 
@@ -124,7 +124,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916180608895-807176197.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916180608895-807176197.gif)  <br/>
 
  　　不可编辑的回显中，可以进行下载附件操作 <br/>
 
@@ -132,7 +132,7 @@
 
 ### 　　下载 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202109/1353055-20210916180755733-1891837324.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202109/1353055-20210916180755733-1891837324.gif)  <br/>
 
 
 
@@ -193,15 +193,15 @@ new ImageCompressor({
 });
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220426113114765-567225227.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220426113114765-567225227.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220426113134633-1528550373.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220426113134633-1528550373.png)  <br/>
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220426113148747-1298857174.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220426113148747-1298857174.png)  <br/>
 
 
 
@@ -470,19 +470,19 @@ public class AttachmentController2 {
 
 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202210/1353055-20221028111115875-123222052.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202210/1353055-20221028111115875-123222052.png)  <br/>
 
 
 
 　　上传 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202210/1353055-20221028111258976-784602592.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202210/1353055-20221028111258976-784602592.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202210/1353055-20221028111158867-203425197.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202210/1353055-20221028111158867-203425197.png)  <br/>
 
 　　下载 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202210/1353055-20221028111221242-264648431.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202210/1353055-20221028111221242-264648431.png)  <br/>
 
 
 

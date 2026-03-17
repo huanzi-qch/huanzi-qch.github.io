@@ -36,7 +36,7 @@
 
 　　Spring 3.0之后提供了一个@Async注解，使用@Async注解进行优雅的异步调用，我们先看一下API对这个注解的定义：[https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/scheduling/annotation/Async.html](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/scheduling/annotation/Async.html) <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723114404617-1578165620.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723114404617-1578165620.png)  <br/>
 
 
 
@@ -48,7 +48,7 @@
 
 　　项目工程结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723120022180-2018930228.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723120022180-2018930228.png)  <br/>
 
 　　因为要测试事务，所以需要引入 <br/>
 
@@ -270,7 +270,7 @@ public class AsyncConfig {
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723115827369-137054437.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723115827369-137054437.png)  <br/>
 
 
 
@@ -295,7 +295,7 @@ public class AsyncConfig {
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723120750063-1637394085.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723120750063-1637394085.png)  <br/>
 
 　　有返回值，且主线程需要用到返回值 <br/>
 
@@ -317,7 +317,7 @@ public class AsyncConfig {
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723121014479-355020614.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723121014479-355020614.png)  <br/>
 
 　　可以发现，有返回值的情况下，虽然异步业务逻辑是由新线程执行，但如果在主线程操作返回值对象，主线程会等待，还是顺序执行  <br/>
 
@@ -353,11 +353,11 @@ logging.level.root=debug
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723121259049-1268764937.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723121259049-1268764937.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723115133055-806425816.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723115133055-806425816.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723115333527-573926793.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723115333527-573926793.png)  <br/>
 
 
 
@@ -381,11 +381,11 @@ logging.level.root=debug
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723121249738-1640041332.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723121249738-1640041332.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723113653670-484594019.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723113653670-484594019.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190723115412812-758023998.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190723115412812-758023998.png)  <br/>
 
 
 

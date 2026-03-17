@@ -176,11 +176,11 @@ public class Controller {
 
 　　http://localhost:10010/test/addUser?id=123&name=张三&email=1111@qq.com&age=20&addr=南宁市 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115642220-1683559459.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115642220-1683559459.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115716893-1854703703.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115716893-1854703703.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115806536-1299026875.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115806536-1299026875.png)  <br/>
 
 
 
@@ -194,19 +194,19 @@ public class Controller {
 
 　　http://localhost:10010/test/editUser?id=123&name=李四&age=20 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115847589-1718922804.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115847589-1718922804.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115907471-528774292.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115907471-528774292.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708115921885-135949445.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708115921885-135949445.png)  <br/>
 
 
 
@@ -220,19 +220,19 @@ public class Controller {
 
 　　http://localhost:10010/test/findUserById?id=123 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708120626831-1019139627.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708120626831-1019139627.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708120646814-312222587.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708120646814-312222587.png)  <br/>
 
 
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202107/1353055-20210708120657537-113751153.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202107/1353055-20210708120657537-113751153.png)  <br/>
 
 
 

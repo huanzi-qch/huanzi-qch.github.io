@@ -50,9 +50,9 @@ application/x-www-form-urlencoded
 
  　　例如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711170423684-1762462058.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711170423684-1762462058.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711170523807-937357555.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711170523807-937357555.png)  <br/>
 
 
 
@@ -86,11 +86,11 @@ text/plain
 
 　　例如：　　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711171150600-1106214232.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711171150600-1106214232.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711171228836-2048373928.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711171228836-2048373928.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711171310387-1132485847.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711171310387-1132485847.png)  <br/>
 
 
 
@@ -106,7 +106,7 @@ text/plain
 
 　　如果前端设置了true，后端为false，则会 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711163335495-2008540721.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711163335495-2008540721.png)  <br/>
 
 
 
@@ -260,7 +260,7 @@ public class TestController {
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711172008533-1980235546.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711172008533-1980235546.png)  <br/>
 
 
 
@@ -420,19 +420,19 @@ public class TestController {/*
 
 　　注解 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711172342258-1057202043.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711172342258-1057202043.png)  <br/>
 
 
 
 　　java配置 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711172411710-981943080.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711172411710-981943080.png)  <br/>
 
 
 
 　　corsFilter <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190711172437309-1902126132.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190711172437309-1902126132.png)  <br/>
 
 
 

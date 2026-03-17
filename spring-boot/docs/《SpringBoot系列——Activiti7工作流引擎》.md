@@ -75,13 +75,13 @@
 
 　　StartEvent，开始事件。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519094504173-278897241.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519094504173-278897241.png)  <br/>
 
 
 
 　　EndEvent，结束事件。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519095641522-1463990212.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519095641522-1463990212.png)  <br/>
 
 
 
@@ -89,7 +89,7 @@
 
 　　UserTask，用户任务，用户任务用来设置必须由人员完成的工作。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519105032055-1460235589.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519105032055-1460235589.png)  <br/>
 
 属性名称	属性说明
 Assignee	指定用户任务的处理人
@@ -110,13 +110,13 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　ScriptTask，脚本任务，脚本任务是一个自动节点，当流程到达脚本任务。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519105651231-1130815096.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519105651231-1130815096.png)  <br/>
 
 
 
 　　ServiceTask，服务任务 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519111051499-272418634.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519111051499-272418634.png)  <br/>
 
 
 
@@ -124,19 +124,19 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　ParallelGateway，并行网关，顺序流没有条件解析，且分支执行不分先后。例如下面流程，需要科任老师批准、班主任批准，请假流程才能结束。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519100852070-1740867701.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519100852070-1740867701.png)  <br/>
 
 
 
  　　ExclusiveGateway，排他网关，条件解析为true的顺序流会被选中，流程往前走。例如下面流程，请假天数小于等于1天，科任老师老师批准，请假流程结束；请假天数大于1天，就需要班主任批准。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519101947841-1157428449.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519101947841-1157428449.png)  <br/>
 
 
 
  　　InclusiveGateway，包含网关，并行与排他的结合体，所有顺序流的条件都会被解析，结果为true的顺序会以并行方式继续执行。例如下面流程，请假天数小于等于1天，科任老师老师批准，请假流程结束；请假天数大于1天，班主任批准，请假流程结束；请假天数大于三天，就需要班主任批准、校长批准，请假流程才能结束。 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210519103234222-757954501.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210519103234222-757954501.png)  <br/>
 
 
 
@@ -148,7 +148,7 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　<span style="font-family: 宋体">  插件，用于绘制流程图</span> <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210512100752917-169865643.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210512100752917-169865643.png)  <br/>
 
 
 
@@ -156,7 +156,7 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　创建bpmn文件，画一个简单的请假流程 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517171150963-1201147992.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517171150963-1201147992.png)  <br/>
 
 
 
@@ -164,7 +164,7 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　项目结构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517172710723-1079938759.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517172710723-1079938759.png)  <br/>
 
 
 
@@ -210,11 +210,11 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　springboot整合的activiti，默认自带security框架，为了方便测试，我们直接用官方提供的config类 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517174751295-1947603409.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517174751295-1947603409.png)  <br/>
 
 　　几个默认账号，选一个来登录即可，可以选 admin/password <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813100609247-1311264288.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813100609247-1311264288.png)  <br/>
 
 
 
@@ -222,31 +222,31 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　传统项目分层：controller层、service层 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517174910673-719735585.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517174910673-719735585.png)  <br/>
 
 
 
 　　为了扩展、丰富原生的流程图生成器，创建自定义ProcessDiagramGenerator与ProcessDiagramCanvas <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517175123218-1186307474.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517175123218-1186307474.png)  <br/>
 
 
 
 　　三个简单页面 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517173956176-1561423430.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517173956176-1561423430.png)  <br/>
 
 　　１、流程发起，填写业务表单，发起一个请假流程 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517173717547-1065981447.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517173717547-1065981447.png)  <br/>
 
 　　２、任务待办，查询指定用户的流程任务列表，并完成任务 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517173759755-1250460707.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517173759755-1250460707.png)  <br/>
 
 　　３、查看流程，查询指定用户发起的流程列表，并查看实时流程图 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517173927353-1250268810.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517173927353-1250268810.png)  <br/>
 
 
 
@@ -260,11 +260,11 @@ Priority	设定任务的优先级，取值区间[0,100]
 
 　　数据库无相关表，启动程序，就会自动创建相关的表，共25张 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517172158143-1549528536.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517172158143-1549528536.png)  <br/>
 
  　　注：自动创建的表中，act_re_deployment少两个字段，部署流程时报错，补全即可（VERSION_、PROJECT_RELEASE_VERSION_） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517172352469-1366023338.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517172352469-1366023338.png)  <br/>
 
 ### 　　流程部署　 <br/>
 
@@ -307,7 +307,7 @@ public class  SpringbootActiviti7ApplicationTests {
 　　http://localhost:10010/activiti/index
 　　发起两个请假流程，一个1天、一个5天 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517171602071-934916429.png) ![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517171608350-1762622465.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517171602071-934916429.png) ![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517171608350-1762622465.png)  <br/>
 
 
 
@@ -317,7 +317,7 @@ public class  SpringbootActiviti7ApplicationTests {
 
 　　查看指定用户发起的流程 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517171726685-1700747111.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517171726685-1700747111.png)  <br/>
 
 
 
@@ -328,7 +328,7 @@ public class  SpringbootActiviti7ApplicationTests {
 　　http://localhost:10010/activiti/queryUserTaskByUserName?username=wangwu
 　　查看任务待办，项目经理：lisi、部门经理：wangwu，并完当前成流程节点，流程会自动推进直至流程结束 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517171819794-1989005634.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517171819794-1989005634.png)  <br/>
 
 
 
@@ -337,7 +337,7 @@ public class  SpringbootActiviti7ApplicationTests {
 　　key1，请假小于3天，项目经理李四审批后流程直接结束
 　　key2，请假大于3天，项目经理审批后，到部门经理审批，然后流程才结束 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517172017720-442387050.png) ![](https://huanzi-qch.github.io/file-server/blog-image/202105/1353055-20210517172023095-1264367722.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517172017720-442387050.png) ![](https://img2020.cnblogs.com/blog/1353055/202105/1353055-20210517172023095-1264367722.png)  <br/>
 
 
 
@@ -394,7 +394,7 @@ public class  SpringbootActiviti7ApplicationTests {
 
 　　　　Activiti-5.x\modules\activiti-webapp-explorer2\src\main\webapp <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813094935500-633659861.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813094935500-633659861.png)  <br/>
 
 　　2、拷贝这三个Controller到我们的项目里 <br/>
 
@@ -420,7 +420,7 @@ public class  SpringbootActiviti7ApplicationTests {
 
 　　editor-app/app-cfg.js <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813095047961-1398158625.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813095047961-1398158625.png)  <br/>
 
 
 
@@ -428,7 +428,7 @@ public class  SpringbootActiviti7ApplicationTests {
 
 　　另外，保存方法的接参要改一改 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813172626914-707667185.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813172626914-707667185.png)  <br/>
 
 
 
@@ -474,13 +474,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 　　写个流程管理页面，可以进行CRUD、发布流程模型，同时还可以删除流程部署 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813172119235-89337819.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813172119235-89337819.png)  <br/>
 
 
 
  　　一个简单的请假流程 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813172313099-1065217028.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813172313099-1065217028.png)  <br/>
 
 
 
@@ -490,7 +490,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 　　将之前的请假流程发起的流程部署小调整一下，改成发起我们刚刚画的流程（修改key值） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813172409119-1386304486.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813172409119-1386304486.png)  <br/>
 
 
 
@@ -500,7 +500,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 　　流程图效果（其他的步骤跟之前的一样，就没什么好说的了，主要是看生成的流程图效果） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210813172035771-1636487818.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210813172035771-1636487818.png)  <br/>
 
 　　可以看到，使用在线编辑器不仅方便、流程图还比之前的好看，nice！ <br/>
 

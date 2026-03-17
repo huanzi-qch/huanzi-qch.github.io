@@ -65,19 +65,19 @@ class RibbonConfig {
 
 　　下表显示了Spring Cloud Netflix默认为Ribbon提供的bean： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218164758547-167992797.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218164758547-167992797.png)  <br/>
 
 　　官网例子： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218164924623-1974755089.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218164924623-1974755089.png)  <br/>
 
 　　PS：我们启动的时候有可能会碰到这个问题或类似的问题，说我们注入的某个bean对象有重名，叫我们改名或启用覆盖 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190701170857894-460650895.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190701170857894-460650895.png)  <br/>
 
 　　这个是ribbonRule跟txlcn框架的重名了，我们这里进行改名就能解决问题 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190701171100271-1039139187.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190701171100271-1039139187.png)  <br/>
 
 
 
@@ -137,13 +137,13 @@ public interface MyspringbootFeign {
 
 　　另一个是服务消费者（Feign调用）； <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218153739033-1956758107.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218153739033-1956758107.png)  <br/>
 
 
 
 　　消费者不断调用，Ribbon会从注册中心的服务列表拉取实例集合进行负载均衡调用背后的服务提供者 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201812/1353055-20181218153920533-1766338450.gif)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201812/1353055-20181218153920533-1766338450.gif)  <br/>
 
 
 

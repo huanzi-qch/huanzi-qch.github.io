@@ -19,9 +19,9 @@
 keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 1024 -validity 365 -keystore d:/tomcat_https.keystore -storepass 123456
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160552339-137858900.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102160552339-137858900.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160225900-1202288024.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102160225900-1202288024.png)  <br/>
 
 　　　　-alias 别名
  　　　　-keypass 指定生成密钥的密码
@@ -30,6 +30,64 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
  　　　　-validity 过期时间，单位天
  　　　　-keystore 指定存储密钥的密钥库的生成路径、名称
  　　　　-storepass 指定访问密钥库的密码 <br/>
+
+
+
+　　<span style="color: rgba(255, 0, 0, 1)">  2025-07-16更新</span> <br/>
+
+　　使用openssl生成.key、.pem <br/>
+
+　　安装openssl <br/>
+
+　　下载地址：https://slproweb.com/products/Win32OpenSSL.html，下载最新版 <br/>
+
+![](https://img2024.cnblogs.com/blog/1353055/202507/1353055-20250716110316789-1673627079.png)  <br/>
+
+ 　　双击运行，一步步安装，根据安装路径，新增环境变量：C:\Program Files\OpenSSL-Win64\bin <br/>
+
+![](https://img2024.cnblogs.com/blog/1353055/202507/1353055-20250716110515257-1422207910.png)  <br/>
+
+　　　生成.key私钥 <br/>
+
+```
+openssl genpkey -algorithm RSA -out mydomain.key -pkeyopt rsa_keygen_bits:2048
+```
+
+　　生成.pem <br/>
+
+```
+openssl req -new -x509 -key mydomain.key -out mydomain.pem -days 3650 -subj "/CN=huanzi.qzz.io"
+```
+
+　　查看证书 <br/>
+
+```
+openssl x509 -in mydomain.pem -text -noout
+```
+
+![](https://img2024.cnblogs.com/blog/1353055/202507/1353055-20250716110553112-815410025.png)  <br/>
+
+　　nginx使用 <br/>
+
+```
+在Nginx的配置文件中（通常是/etc/nginx/nginx.conf或/etc/nginx/sites-available/default），配置SSL部分如下：
+
+server {
+    listen 443 ssl;
+    server_name your_domain.com;
+ 
+    ssl_certificate /path/to/mydomain.pem;
+    ssl_certificate_key /path/to/mydomain.key;
+ 
+    location / {
+        # 其他配置...
+    }
+}
+```
+
+　　宝塔 <br/>
+
+![](https://img2024.cnblogs.com/blog/1353055/202507/1353055-20250716110118159-554822555.png)  <br/>
 
 
 
@@ -52,19 +110,19 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　首先看文档说明： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153022977-1067002652.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110153022977-1067002652.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110152844262-1851165424.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110152844262-1851165424.png)  <br/>
 
 　　在springBoot项目中的static文件夹新建，然后把文件内容复制进去 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110152938893-434798317.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110152938893-434798317.png)  <br/>
 
 　　 启动项目，访问 http://XXXX/.well-known/pki-validation/fileauth.txt，返回文件内容 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153253194-518531434.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110153253194-518531434.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110153347746-567860241.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110153347746-567860241.png)  <br/>
 
 
 
@@ -74,7 +132,7 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200110154901132-1451878650.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200110154901132-1451878650.png)  <br/>
 
 
 
@@ -84,7 +142,7 @@ keytool -genkeypair -alias tomcat_https -keypass 123456 -keyalg RSA -keysize 102
 
 　　把生成的tomcat_https.keystore放在resources里（任意安全目录都可以） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161153484-496122920.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102161153484-496122920.png)  <br/>
 
 
 
@@ -150,19 +208,19 @@ public class HttpsController {
 
 　　由于是自签名证书，浏览器不认可 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161641784-534486042.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102161641784-534486042.png)  <br/>
 
 
 
  　　选择“高级”，选择继续访问即可 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161719512-1272732856.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102161719512-1272732856.png)  <br/>
 
 
 
  　　成功访问 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161743123-191122462.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102161743123-191122462.png)  <br/>
 
 
 
@@ -176,15 +234,15 @@ public class HttpsController {
 keytool -keystore d:/tomcat_https.keystore -export -alias tomcat_https -file d:/server.cer
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160148187-527397622.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102160148187-527397622.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102160203427-1034815806.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102160203427-1034815806.png)  <br/>
 
 　　双击安装，选择导入到受信任的跟证书颁发机构 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102161929389-20970096.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102161929389-20970096.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102164752752-1306786989.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102164752752-1306786989.png)  <br/>
 
 
 
@@ -192,7 +250,7 @@ keytool -keystore d:/tomcat_https.keystore -export -alias tomcat_https -file d:/
 
  　　这样访问就不会再阻止了，但还是显示证书无效 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102162518248-1044649358.png)  <br/>
+![](https://img2018.cnblogs.com/i-beta/1353055/202001/1353055-20200102162518248-1044649358.png)  <br/>
 
 
 
@@ -266,11 +324,168 @@ public class Http2Https {
 
 ### 　　效果 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202001/1353055-20200102163247367-867579538.gif)  <br/>
+![](https://img2018.cnblogs.com/common/1353055/202001/1353055-20200102163247367-867579538.gif)  <br/>
 
 ## 　　后记 <br/>
 
 　　部分代码参考：https://www.cnblogs.com/niumoo/p/11717657.html <br/>
+
+
+
+## 　　更新 <br/>
+
+　　<span style="color: rgba(255, 0, 0, 1)">  2025-12-16更新</span> <br/>
+
+　　实际应用中，有时候我们会需要支持https支持绑定多个域名，但Springboot默认只能在配置文件对一个域名证书进行绑定，这时候我们可以使用手动编码配置 Tomcat connector，使Springboot支持https多个域名证书！ <br/>
+
+　　1、首先下载好对应的域名jks文件、记录以及对应的密码 <br/>
+
+![](https://img2024.cnblogs.com/blog/1353055/202512/1353055-20251216145414585-970392008.png)  <br/>
+
+ 　　2、配置文件里面Springboot关于ssl的配置项全部注释起来或者删掉 <br/>
+
+　　 3、配置文件新增自定义ssl配置项，方便我们的HttpsConfig类调用 <br/>
+
+```
+# 自定义ssl配置，供HttpsConfig类使用
+huanzi:
+  ssl:
+    port: 443
+    jks-path: E:/huanzi/ssl
+    main-xxx-xxx-jks-path: ${huanzi.ssl.jks-path}/main.xxx.xxx.jks
+    main-xxx-xxx-jks-pwd: 123456
+
+    app-xxx-xxx-jks-path: ${huanzi.ssl.jks-path}/app.xxx.xxx.jks
+    app-xxx-xxx-jks-pwd: 234567
+
+    erp-xxx-xxx-jks-path: ${huanzi.ssl.jks-path}/erp.xxx.xxx.jks
+    erp-xxx-xxx-jks-pwd: 345678
+
+    test-xxx-xxx-jks-path: ${huanzi.ssl.jks-path}/test.xxx.xxx.jks
+    test-xxx-xxx-jks-pwd: 456789
+```
+
+　　 4、编写HttpsConfig.java <br/>
+
+```
+import org.apache.catalina.connector.Connector;
+import org.apache.coyote.http11.Http11NioProtocol;
+import org.apache.tomcat.util.net.SSLHostConfig;
+import org.apache.tomcat.util.net.SSLHostConfigCertificate;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
+import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.io.IOException;
+
+/**
+ * 手动编码配置 Tomcat connector，使Springboot支持https多个域名证书
+ */
+@Configuration
+public class HttpsConfig {
+
+    @Value("${server.port}")
+    private int httpPort;//http的端口
+
+    @Value("${huanzi.ssl.port}")
+    private int sslPort;//https的端口
+
+    @Value("${huanzi.ssl.main-xxx-xxx-jks-path}")
+    private String mainXxxXxxJksPath;//jks证书位置
+    @Value("${huanzi.ssl.main-xxx-xxx-jks-pwd}")
+    private String mainXxxXxxJksPwd;//jks证书密码
+
+    @Value("${huanzi.ssl.app-xxx-xxx-jks-path}")
+    private String appXxxXxxJksPath;//jks证书位置
+    @Value("${huanzi.ssl.app-xxx-xxx-jks-pwd}")
+    private String appXxxXxxJksPwd;//jks证书密码
+
+    @Value("${huanzi.ssl.erp-xxx-xxx-jks-path}")
+    private String erpXxxXxxJksPath;//jks证书位置
+    @Value("${huanzi.ssl.erp-xxx-xxx-jks-pwd}")
+    private String erpXxxXxxJksPwd;//jks证书密码
+
+    @Value("${huanzi.ssl.test-xxx-xxx-jks-path}")
+    private String testXxxXxxJksPath;//jks证书位置
+    @Value("${huanzi.ssl.test-xxx-xxx-jks-pwd}")
+    private String testXxxXxxJksPwd;//jks证书密码
+
+    @Bean
+    public ServletWebServerFactory servletContainer() throws IOException {
+        TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
+
+        // 创建 HTTPS Connector
+        Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
+        connector.setPort(sslPort);
+
+        //true： http使用http, https使用https;
+        connector.setScheme("http");
+        connector.setSecure(true);
+
+        //false： http重定向到https;
+//        connector.setScheme("https");
+//        connector.setSecure(false);
+//        connector.setPort(httpPort);//设置监听请求的端口号，这个端口不能其他已经在使用的端口重复，否则会报错
+//        connector.setRedirectPort(sslPort);//重定向端口号(非SSL到SSL)
+
+        // 启用 SSL
+        connector.setProperty("SSLEnabled", "true");
+        Http11NioProtocol protocol = (Http11NioProtocol) connector.getProtocolHandler();
+        protocol.setSSLEnabled(true);
+        //设置默认
+        protocol.setDefaultSSLHostConfigName("main.xxx.xxx");
+
+        //配置第一个域名ssl
+        SSLHostConfig sslHostConfig = new SSLHostConfig();
+        sslHostConfig.setHostName("main.xxx.xxx");
+        SSLHostConfigCertificate sslHostConfigCertificate = new SSLHostConfigCertificate(sslHostConfig, SSLHostConfigCertificate.Type.RSA);
+        //证书可以放在固定的证书文件夹里也可以放在项目中,如果放项目中，则将证书放在resources目录下，sslHostConfigCertificate.setCertificateKeystoreFile("cloud.xxx.com.jks");
+        sslHostConfigCertificate.setCertificateKeystoreFile(mainXxxXxxJksPath);
+        //下载jks格式时，里面会带有密码文件
+        sslHostConfigCertificate.setCertificateKeystorePassword(mainXxxXxxJksPwd);
+        sslHostConfigCertificate.setCertificateKeystoreType("JKS");
+        sslHostConfig.addCertificate(sslHostConfigCertificate);
+        connector.addSslHostConfig(sslHostConfig);
+
+        //配置第二个域名ssl
+        SSLHostConfig sslHostConfig1 = new SSLHostConfig();
+        sslHostConfig1.setHostName("app.xxx.xxx");
+        SSLHostConfigCertificate sslHostConfigCertificate1 = new SSLHostConfigCertificate(sslHostConfig1, SSLHostConfigCertificate.Type.RSA);
+        sslHostConfigCertificate1.setCertificateKeystoreFile(appXxxXxxJksPath);
+        sslHostConfigCertificate1.setCertificateKeystorePassword(appXxxXxxJksPwd);
+        sslHostConfigCertificate1.setCertificateKeystoreType("JKS");
+        sslHostConfig1.addCertificate(sslHostConfigCertificate1);
+        connector.addSslHostConfig(sslHostConfig1);
+
+        //配置第三个域名ssl
+        SSLHostConfig sslHostConfig2 = new SSLHostConfig();
+        sslHostConfig2.setHostName("erp.xxx.xxx");
+        SSLHostConfigCertificate sslHostConfigCertificate2 = new SSLHostConfigCertificate(sslHostConfig2, SSLHostConfigCertificate.Type.RSA);
+        sslHostConfigCertificate2.setCertificateKeystoreFile(erpXxxXxxJksPath);
+        sslHostConfigCertificate2.setCertificateKeystorePassword(erpXxxXxxJksPwd);
+        sslHostConfigCertificate2.setCertificateKeystoreType("JKS");
+        sslHostConfig2.addCertificate(sslHostConfigCertificate2);
+        connector.addSslHostConfig(sslHostConfig2);
+
+        //配置第四个域名ssl
+        SSLHostConfig sslHostConfig3 = new SSLHostConfig();
+        sslHostConfig3.setHostName("test.xxx.xxx");
+        SSLHostConfigCertificate sslHostConfigCertificate3 = new SSLHostConfigCertificate(sslHostConfig3, SSLHostConfigCertificate.Type.RSA);
+        sslHostConfigCertificate3.setCertificateKeystoreFile(testXxxXxxJksPath);
+        sslHostConfigCertificate3.setCertificateKeystorePassword(testXxxXxxJksPwd);
+        sslHostConfigCertificate3.setCertificateKeystoreType("JKS");
+        sslHostConfig3.addCertificate(sslHostConfigCertificate3);
+        connector.addSslHostConfig(sslHostConfig3);
+
+        tomcat.addAdditionalTomcatConnectors(connector);
+        return tomcat;
+    }
+}
+```
+
+　　以上便完成了对多个域名证书的绑定，在不方便生成泛域名证书的情况下，可使用此方法 <br/>
 
 
 

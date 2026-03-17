@@ -302,7 +302,7 @@ public class TbTaskController {
 
 　　启动一个定时任务，http://localhost:10085/tbTask/start/2 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809100532219-1137833276.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809100532219-1137833276.gif)  <br/>
 
 　　可以看到，id为2的定时任务已经被启动，corn表达式为5秒执行一次，runnable任务为MyRunnable2 <br/>
 
@@ -312,7 +312,7 @@ public class TbTaskController {
 
 　　修改一个定时任务，http://localhost:10085/tbTask/save?taskId=2&taskExp=0/2 * * * * ?&taskClass=cn.huanzi.qch.springboottimer.task.MyRunnable3 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809100701333-519311941.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809100701333-519311941.gif)  <br/>
 
 　　调用修改后，数据库信息被修改，id为2的旧任务被停止重新启用新任务，corn表达式为2秒执行一次，runnable任务类为MyRunnable3 <br/>
 
@@ -322,7 +322,7 @@ public class TbTaskController {
 
 　　停止一个定时任务，http://localhost:10085/tbTask/stop/2 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809100729785-338782080.gif)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809100729785-338782080.gif)  <br/>
 
 　　id为2的定时任务被停止 <br/>
 

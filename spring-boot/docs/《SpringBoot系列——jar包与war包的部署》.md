@@ -73,7 +73,7 @@
 
 　　2019-08-23补充：之前打包都是一个多个工程管理，在父类的pom文件配置这个，打包会在目录下面生成，因为用的是../package <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190823154406636-460929894.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190823154406636-460929894.png)  <br/>
 
 　　最近打包一个单独的项目，路径我改成package，没有../了，打包后并没有在项目下面生成package目录，jar不知道打去哪了。。。我全局搜也搜不出来 <br/>
 
@@ -81,7 +81,7 @@
 
 　　PS：实在不行可以直接指定一个文件夹，例如：F:\package <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201908/1353055-20190823155010485-2075348393.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201908/1353055-20190823155010485-2075348393.png)  <br/>
 
 
 
@@ -89,23 +89,23 @@
 
 　　可以使用命令行来打包，或者使用Maven Projects来打包 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112152728243-1802118865.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112152728243-1802118865.png)  <br/>
 
 
 
 　　同时也可以直接使用下面命令进行打包 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202009/1353055-20200929182121202-598467685.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202009/1353055-20200929182121202-598467685.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112152807487-1259312079.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112152807487-1259312079.png)  <br/>
 
 　　打包成功，在target目录下就会看到jar包 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112152928693-1269222481.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112152928693-1269222481.png)  <br/>
 
 　　要运行该应用程序，cmd命令，进入到jar所在路径文件，使用 java -jar 命令；win下直接双击用java方式打开即可运行（Ctrl+C退出） <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112160016771-2100466780.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112160016771-2100466780.png)  <br/>
 
  　　那么Linux下面如何部署运行呢？ <br/>
 
@@ -144,11 +144,11 @@
 
 　　　　1、先cd进到jar位置，然后使用 vim 命令进入jar包　　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190708113931798-1734302917.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190708113931798-1734302917.png)  <br/>
 
 　　　　2、使用 / 命令模糊搜索定位文件，例如main.js　　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190708114051991-1353726755.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190708114051991-1353726755.png)  <br/>
 
 　　　　3、按回车进入文件，修改完成后使用 :wq 保存退出文件，回到jar包目录，使用 :q 退出jar包，即可成功修改文件内容 <br/>
 
@@ -240,11 +240,11 @@ public class MyspringbootApplication  extends SpringBootServletInitializer imple
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201811/1353055-20181112161348349-1705427619.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201811/1353055-20181112161348349-1705427619.png)  <br/>
 
 　　得到war包后把它丢到服务容器里（放在webapps文件夹下）run起来就行了，要注意的是使用了外部容器，要记得改Tomcat的端口，在server.xml的Connector节点 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190614102442590-2033197629.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190614102442590-2033197629.png)  <br/>
 
 　　友情翻译：如果使用Spring引导构建工具，将嵌入的servlet容器依赖项标记为提供，将生成一个可执行的war文件，并将提供的依赖项打包在lib提供的目录中。这意味着，除了可以部署到servlet容器之外，还可以在命令行上使用java -jar运行应用程序。 <br/>
 
@@ -260,23 +260,23 @@ public class MyspringbootApplication  extends SpringBootServletInitializer imple
 
 　　2019-06-24补充：我将我们前面写的IM系统按照步骤打成war包，但启动Tomcat报错 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201906/1353055-20190624141928659-943774186.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201906/1353055-20190624141928659-943774186.png)  <br/>
 
 
 
 　　2019-07-12补充，后面看文档后发现，我们漏了一下东西，如果使用Logback，还需要告诉WebLogic选择打包版本，而不是预先安装在服务器上的版本。而SpringBoot默认使用Logback，同时，之前我们也漏了 implements WebApplicationInitializer <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712112917660-289836960.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712112917660-289836960.png)  <br/>
 
 
 
 　　将所有的东西都补全后还是报错...　 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712112828121-917252355.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712112828121-917252355.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712114338619-1443673773.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712114338619-1443673773.png)  <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712114442519-1953767157.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712114442519-1953767157.png)  <br/>
 
 
 
@@ -284,21 +284,21 @@ public class MyspringbootApplication  extends SpringBootServletInitializer imple
 
 　　我们之前的Tomcat版本是apache-tomcat-7.0.53，去官网看来下，支持6 and later(7 and later for WebSocket) <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712121324165-2085872775.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712121324165-2085872775.png)  <br/>
 
 　　发现9.0.x版的Tomcat也支持1.8及1.8以上，我们项目用的jdk版本是1.8.0_131，我们直接下载最新版Tomcat试一下 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712123513783-592908568.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712123513783-592908568.png)  <br/>
 
 　　成功启动 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712125244478-488629899.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712125244478-488629899.png)  <br/>
 
 
 
 　　同时我们也注意到，springboot 2.x的内置Tomcat使用的是9.x <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202011/1353055-20201120152047404-1215207261.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202011/1353055-20201120152047404-1215207261.png)  <br/>
 
 
 
@@ -329,15 +329,15 @@ java.util.logging.ConsoleHandler.encoding = GBK
 
 　　　　这是因为我们server.xml的host节点的默认appBase="webapps" <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712125810232-51175002.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712125810232-51175002.png)  <br/>
 
 　　　　新增一个默认访问路径就可以不用加war包名称了，例如： <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712130541132-1001929162.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712130541132-1001929162.png)  <br/>
 
  　　　　然后就可以这样访问了 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190712131233274-1685082599.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190712131233274-1685082599.png)  <br/>
 
 　　到这里war包启动报错的问题终于解决！ <br/>
 
@@ -425,7 +425,7 @@ grant all on *.* to root@'%' identified by 'root';
 
 　　因此，我们可以把相关依赖jar包从我们的jar包中剔除出来，运行项目时再指定相关依赖包的路径，减少jar包的大小，方便进行传输 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809170707399-798693628.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809170707399-798693628.png)  <br/>
 
 
 
@@ -484,7 +484,7 @@ grant all on *.* to root@'%' identified by 'root';
 
  　　震惊！一个17M，一个90K <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809171613985-1326244099.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809171613985-1326244099.png)  <br/>
 
 
 
@@ -496,7 +496,7 @@ grant all on *.* to root@'%' identified by 'root';
 
 　　正常jar包启动：java -jar springboot-jar-war.jar <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809171840760-37143483.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809171840760-37143483.png)  <br/>
 
 
 
@@ -508,7 +508,7 @@ grant all on *.* to root@'%' identified by 'root';
 
 　　瘦身后的jar包启动：java -jar -Dloader.path="D:\github-code\springBoot\package\lib" springboot-jar-war-thin.jar <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809172304914-1705721516.png) ![](https://huanzi-qch.github.io/file-server/blog-image/202108/1353055-20210809172114733-1409313078.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809172304914-1705721516.png) ![](https://img2020.cnblogs.com/blog/1353055/202108/1353055-20210809172114733-1409313078.png)  <br/>
 
 
 

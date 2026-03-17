@@ -38,7 +38,7 @@ spring:
 
 　　请看官网截图介绍：你可以在一个yml里面指定多个具体的profile配置，通过配置spring.profiles，判断使用哪个配置 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702145305709-1077660449.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190702145305709-1077660449.png)  <br/>
 
 
 
@@ -93,19 +93,19 @@ msg: 正在使用 prod 配置
 
  　　当然也可以用后缀.properties的配置文件，来进行根据活跃的profiles分支选择 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702150659073-1578504880.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190702150659073-1578504880.png)  <br/>
 
 　　创建application-dev.properties，application-dev-test.properties...文件，将具体配置放在具体文件里，同样与yml效果一致 <br/>
 
 　　PS：默认情况下yml没有中文乱码问题，而properties有 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702151827348-992489653.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190702151827348-992489653.png)  <br/>
 
 
 
 　　另外，官网给出了一个yml的缺点，就是不能使用@PropertySource注释加载yml文件 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201907/1353055-20190702152055303-77018092.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190702152055303-77018092.png)  <br/>
 
 　　更多yml介绍请看官网：24.7 Using YAML Instead of Properties [https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/#boot-features-external-config-yaml](https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/#boot-features-external-config-yaml) <br/>
 
@@ -119,7 +119,7 @@ msg: 正在使用 prod 配置
 
 　　Windows配置系统环境变量，例如：dev-test <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201902/1353055-20190221110255752-1832065232.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201902/1353055-20190221110255752-1832065232.png)  <br/>
 
 
 
@@ -156,7 +156,7 @@ msg: 正在使用 prod 配置
 
 　　<span class="author-p-24555265 font-size:10.5pt">  <span class="author-p-24555265 font-size:10.5pt">    　　没有设置系统环境变量：默认使用dev  </span></span> <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201902/1353055-20190221113904234-416350496.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201902/1353055-20190221113917137-1882071913.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201902/1353055-20190221113904234-416350496.png) ![](https://img2018.cnblogs.com/blog/1353055/201902/1353055-20190221113917137-1882071913.png)  <br/>
 
 
 
@@ -164,7 +164,7 @@ msg: 正在使用 prod 配置
 
 　　<span class="author-p-24555265 font-size:10.5pt">  <span class="author-p-24555265 font-size:10.5pt">    　　设置系统环境变量后：使用环境变量的值dev-test  </span></span> <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/201902/1353055-20190221113758989-755583161.png) ![](https://huanzi-qch.github.io/file-server/blog-image/201902/1353055-20190221113828811-1486197903.png)  <br/>
+![](https://img2018.cnblogs.com/blog/1353055/201902/1353055-20190221113758989-755583161.png) ![](https://img2018.cnblogs.com/blog/1353055/201902/1353055-20190221113828811-1486197903.png)  <br/>
 
 
 

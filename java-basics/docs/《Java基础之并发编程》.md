@@ -19,7 +19,7 @@
 
 　　新生状态、就绪状态、阻塞状态、运行状态、死亡状态 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108103251860-1212684586.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108103251860-1212684586.png)  <br/>
 
 
 
@@ -59,7 +59,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108104124175-1808697817.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108104124175-1808697817.png)  <br/>
 
 
 
@@ -96,7 +96,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108104150026-1266690598.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108104150026-1266690598.png)  <br/>
 
 
 
@@ -134,7 +134,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108104222143-1786209860.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108104222143-1786209860.png)  <br/>
 
 
 
@@ -159,7 +159,7 @@
     }
 ```
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108104520857-1497761950.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108104520857-1497761950.png)  <br/>
 
 
 
@@ -354,7 +354,7 @@ public class MyRunnable implements Runnable{
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108151546885-1914982486.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108151546885-1914982486.png)  <br/>
 
 
 
@@ -364,7 +364,7 @@ public class MyRunnable implements Runnable{
 
 　　如果不加锁，就会出现并发安全问题 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108151527608-480901311.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108151527608-480901311.png)  <br/>
 
 
 
@@ -390,7 +390,7 @@ public class MyRunnable implements Runnable{
 
 
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202111/1353055-20211108105817859-1936812368.png)  <br/>
+![](https://img2020.cnblogs.com/blog/1353055/202111/1353055-20211108105817859-1936812368.png)  <br/>
 
 
 
@@ -480,7 +480,7 @@ public class MyRunnable implements Runnable{
 
  　　2022-04-07更新：线程池参数详解 <br/>
 
-![](https://huanzi-qch.github.io/file-server/blog-image/202204/1353055-20220407102314671-110219244.png)  <br/>
+![](https://img2022.cnblogs.com/blog/1353055/202204/1353055-20220407102314671-110219244.png)  <br/>
 
 
 
