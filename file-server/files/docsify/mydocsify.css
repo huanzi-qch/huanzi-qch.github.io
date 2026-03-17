@@ -1,0 +1,52 @@
+/* 侧边栏 */
+.sidebar{
+    padding: 25px 0 0 !important;
+}
+
+/* 自定义右侧目录 */
+.catalogue{
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    right: 15px;
+    top: 100px;
+    padding: 30px 35px 10px 15px;
+    background: white;
+    color: rgb(102, 102, 102);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: rgb(238 238 238) 0px 0px 6px;
+}
+.catalogue-close{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    cursor: pointer;
+    line-height: 15px;
+}
+.catalogue-h2{
+    display: block;
+    text-decoration: none;
+    color: #505d6b;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+.catalogue-h3{
+    display: block;
+    text-decoration: none;
+    color: #505d6b;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* 首页按钮 */
+section.cover .cover-main > p:last-child a {
+    border-radius: 0.5rem !important;
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>huanzi-qch 在线简历</title>
+    <meta name="description" content="恭喜你找到宝藏了！">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+
+    <!-- 引入logo图片 -->
+    <link rel="shortcut icon" type="image/x-icon" href="/file-server/images/logo.png" media="screen"/>
+
+    <!-- jQuery文件-->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 自定义web弹窗 CSS 文件 -->
+    <link href="/file-server/files/tip.css" rel="stylesheet"/>
+    <script src="/file-server/files/tip.js"></script>
+
+    <script src="https://cdn.bootcss.com/html2canvas/0.5.0-alpha2/html2canvas.min.js"></script>
+    <script src="https://cdn.bootcss.com/jspdf/1.5.3/jspdf.min.js"></script>
+
+    <!-- 自定义样式 -->
+    <style>
+        *{
+            font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 0;
+            margin: 5px 0;
+            color: black;
+        }
+
+        a:hover {
+            color: #5c8dff;
+        }
+
+        b{
+            margin: 0 10px;
+        }
+
+        /* 主体 */
+        .main {
+            margin: 0 auto;
+            padding: 20px 30px;
+            width: 1024px;
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+            /*border: 1px solid #dad8d8;*/
+            /*background: #fbfbfb;*/
+        }
+
+        /* 1级标题 */
+        h3.list1 {
+            color: #409EFF;
+            border-bottom: 1px solid #409EFF;
+            padding: 5px;
+            margin: 50px 0 0 0;
+        }
+
+        /* 大模块 */
+        .block,.block1 {
+            /*background: #efefef;*/
+            /*border: 1px solid #dad8d8;*/
+            margin: 0 0 20px 0;
+            padding: 0 10px;
+        }
+        .block,.block1 p {
+            text-indent:2em;
+        }
+
+        .block:hover {
+            background: #eeeeee;
+        }
+        .block1:hover {
+            background: #cecece;
+        }
+
+        .button-list{
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+            width: 1024px;
+        }
+    </style>
+
+    <!-- 默认打开新页面跳转 -->
+    <base target="_blank"/>
+</head>
+<body>
+<!-- 操作按钮 -->
+<div class="button-list">
+    <p>PS：请在PC端Google浏览器打开。</p>
+    <p>如需打印可导出PDF，如需在发送到手机浏览可导出图片。</p>
+    <button onclick="pdf()">导出PDF</button>
+    <button onclick="img()">导出图片</button>
+</div>
+
+<!-- 简历主体 -->
+<div id="body" class="main">
+    <div class="section">
+
+        <div class="module">
+            <h3 class="list1" style="margin: 0;">基本信息</h3>
+            <div class="block">
+                <p><span id="username">***</span><b>/</b>男<b>/</b>29岁</p>
+                <p>本科<b>/</b>贺州学院<b>/</b>物联网工程<b>/</b>2014-2018</p>
+                <p>工龄：<span id="workingage">7年</span></p>
+                <p>手机：156********</p>
+                <p>邮箱：huanzi.qch@qq.com</p>
+                <p>GitHub：<a href="https://github.com/huanzi-qch">https://github.com/huanzi-qch</a></p>
+                <p>博客园：<a href="https://www.cnblogs.com/huanzi-qch">https://www.cnblogs.com/huanzi-qch</a></p>
+                <br/>
+                <p>求职岗位：Java开发<b>/</b>目标城市：南宁市<b>/</b>期望薪资：面议</p>
+                <!--<p>注：已离职，一周内可到岗</p>-->
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="list1">技能清单</h3>
+            <div class="block">
+                <p>扎实java基础知识，熟悉集合框架、多线程、反射机制等技术。</p>
+                <p>熟悉jvm、类加载机制，了解常见GC算法。</p>
+                <p>熟悉Spring、SpringBoot、JPA、Mybatis、SpringSecurity、SpringCloud。</p>
+                <p>熟悉Redis、ElasticSearch，了解RabbitMQ中间件。</p>
+                <p>熟悉MySQL、PgSql、Oracle有SQL优化经验，熟悉Linux基本的操作命令。</p>
+                <p>熟悉httpClient、htmlUnit + jsoup等爬虫技术。</p>
+                <p>熟悉http/https，TCP/IP、WebSocket等网络协议知识。</p>
+                <p>熟悉HTML、CSS、JavaScript、TypeScript，熟练应用Element-UI、LayUI、ECharts。</p>
+                <p>熟悉vue、uniApp，有完整App（H5套壳）项目开发经验。</p>
+                <p>熟悉unity3D，threeJs，有多个3D可视化项目经验。</p>
+                <p>熟悉国产MVC框架JFinal。</p>
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="list1">工作经历</h3>
+
+            <div class="block">
+                <p>南宁市碧天冠软件有限责任公司<b>/</b>Java开发工程师<b>/</b>2021.04 - 2024-12</p>
+                <p>外协服务方式驻点南网数字集团广西博联信息通信技术有限责任公司，参与多个项目开发、部署、运维等工作，包括：</p>
+                <p>1、博联项目管理系统开发、运维等工作。</p>
+                <p>2、公司员工竞聘报名系统开发、运维；新电力组织绩效管理系统开发、运维。</p>
+                <p>3、领导班子和领导人员测评系统开发。</p>
+                <p>4、一站式-会议室管理子系统开发；一站式-办公及劳保用品管理子系统开发。</p>
+            </div>
+
+            <div class="block">
+                <p>天讯瑞达通信技术有限公司<b>/</b>Java开发工程师<b>/</b>2018.01 - 2021.03</p>
+                <p>参与多个项目开发、测试、部署等工作，包括：（2020年获“部门优秀员工”称号）</p>
+                <p>1、旧IDC系统的升级、维护；IDC系统重构。</p>
+                <p>2、IDC手机端开发；盐田物业项目开发；</p>
+                <p>3、3D可视化项目开发；大屏项目开发。</p>
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="list1">项目经历</h3>
+            <div class="block">
+                <h4 class="list2">个人开源项目</h4>
+                <div class="block1">
+                    <p>项目名称：base-admin（个人开源项目，目前GitHub 2.4k star）</p>
+                    <p>项目介绍：Base Admin是一套简单通用的后台管理系统，主要功能有：权限管理、菜单管理、用户管理，系统设置、实时日志，实时监控，API加密，以及登录用户修改密码、配置个性菜单等。</p>
+                    <p>技术架构：SpringBoot + Thymeleaf + WebSocket + Spring Security + SpringData-Jpa + MySql + LayUI。</p>
+                    <p>职责描述：</p>
+                    <p>1、负责系统技术选型、框架搭建、功能开发。</p>
+                    <p>2、在JPA的基础上封装一套通用代码，单表继承即可实现CRUD、分页基础接口，实现快速开发。</p>
+                    <p>3、开发代码生成器，直接生成单表继承通用模块全套后台代码，开发效率大大提高。</p>
+                    <p>4、封装通用SqlUtil工具类，利用反射跟自定义注解拼接实体对象的查询SQL，简化开发过程，降低开发难度。</p>
+                    <p>5、AOP实现前后端API交互AES与RSA混合加密，大大提高接口安全性。</p>
+                </div>
+
+
+                <h4 class="list2">碧天冠项目</h4>
+                <div class="block1">
+                    <p>项目名称：博联项管（2021-04 — 至今）</p>
+                    <p>项目介绍：博联项管是博联公司对项目过程进行管控，由经营部主导软件部实施的内部系统，基础模块包括售前、合同、沟通、采购、进度、成本、回款管理等，数据统计分析包括成本预算、项目回款、采购/销售合同、效益核算等。</p>
+                    <p>技术架构：博联自研MP框架（基于金现代的轻骑兵），UI拖拉布局，数据库是Oracle。</p>
+                    <p>职责描述：</p>
+                    <p>1、负责整个项目的开发、部署、维护，服务器巡检等。</p>
+                    <p>2、负责项目bug排查修复、需求变更、二线运维等。</p>
+                    <p>3、负责编写、更新项目相关文档，例如备份方案、应急演练、作业指导书等。</p>
+                </div>
+
+                <h4 class="list2">碧天冠项目</h4>
+                <div class="block1">
+                    <p>项目名称：公司员工竞聘报名系统（2021-07 — 至今）</p>
+                    <p>项目介绍：用于广西电网公司人事内部竞聘报名工作，提升竞聘报名工作效率，实现竞聘报名的信息化、电子化。主要有三个功能模块：竞聘信息管理、人员信息管理、用户报名</p>
+                    <p>技术架构：博联自研LP框架（基于JFinal）+ MiniUI + OpenGauss。</p>
+                    <p>职责描述：</p>
+                    <p>1、负责项目bug排查修复、报名模板需求新增、变更等。</p>
+                    <p>2、2023年项目进行国产化改造，负责整个项目的后端开发以及国产化部署等。</p>
+                </div>
+
+                <h4 class="list2">碧天冠项目</h4>
+                <div class="block1">
+                    <p>项目名称：领导班子和领导人员测评系统（2023-09 — 至今）</p>
+                    <p>项目介绍：领导干部测评是南网对领导考核评价、测评打分的系统，属于领导重点关注项目。大致流程：各下级单位方案管理员新建自己的方案活动及配置考核指标及指标模板等，开始测评后测评人给被测评人打分，系统根据既定公式、规则，生成测评结果及导出文档。手动指标及结果修改在测评结果完善录入、修改。</p>
+                    <p>技术架构：博联自研LP框架（基于JFinal）+ ViewUI + OpenGauss。</p>
+                    <p>职责描述：</p>
+                    <p>1、按开发计划完成模块功能开发，包括：指标管理、测评结果完善、测评结果导出、历史考核结果管理等。</p>
+                    <p>2、负责项目bug排查修复、需求变更等。</p>
+                </div>
+
+                <h4 class="list2">碧天冠项目</h4>
+                <div class="block1">
+                    <p>项目名称：一站式-办公及劳保用品管理子系统（2024-07 — 至今）</p>
+                    <p>项目介绍：办公及劳保用品管理是南网一站式数字化应用平台的站内应用，用于办公及劳保用品的管理维护</p>
+                    <p>技术架构：博联自研LP框架（基于JFinal）+ MiniUI + PostgreSQL。</p>
+                    <p>职责描述：</p>
+                    <p>1、按开发计划完成模块功能开发，包括：子系统个人待办已办\接入一站式待办已办、基础信息配置、申请单综合查询、物品领用统计等。</p>
+                    <p>2、负责项目bug排查修复、需求变更等。</p>
+                </div>
+
+
+                <h4 class="list2">天讯项目</h4>
+                <div class="block1">
+                    <p>项目名称：“穗智管”城市运行管理中枢-疫情防控大屏（2020-11 —2021-02）</p>
+                    <p>项目介绍：政务局穗智管项目，“智”识+“智”管，囊括多个大屏主题，疫情防控大屏主题主要是针对广州疫情防控场景。全方位态势感知，基于”智识+智管”，实时指挥调度；交通、疫情数据分析，智识智管风险；高危区人员上图、防疫资源上图、视频会商联络网上图。</p>
+                    <p>技术架构：SpringBoot + Vue + Element-UI + ECharts。</p>
+                    <p>职责描述：</p>
+                    <p>1、负责整体页面布局，使用vue-router + 组件，配合Element-UI实现。</p>
+                    <p>2、对接数据中台，调用中台提供接口获取数据，使用Redis进行缓存。</p>
+                    <p>3、负责腾讯地图、实时人流数据接口接入；使用爬虫，抓取公开的实时疫情数据。</p>
+                    <p>4、封装通用ECharts配置，实现统一图表样式、同时实现快速开发。</p>
+                </div>
+
+                <h4 class="list2">天讯项目</h4>
+                <div class="block1">
+                    <p>项目名称：贵州物管仓库3D可视化管理平台（2020-08 — 2020-12）</p>
+                    <p>项目介绍：贵州3D，是贵州铁投都拉营国际陆海通物流园区的管理平台子系统之一，使用Unity3D引擎开发，为用户提供具备极致视觉效果、多维度、动态扩展、直观清晰的可视化应工具，帮助用户在运营数据、分析业务的过程中能够快速分析、精准决策。</p>
+                    <p>技术架构：SpringBoot + unity3D + C#。</p>
+                    <p>职责描述：</p>
+                    <p>1、使用unity对园区模型进行加载、叠加地形系统、粒子系统进行优化渲染、实现3D动画等，同时叠加UI面板进行数据展示。</p>
+                    <p>2、编写C#脚本进行场景切换、3D对象控制、实现业务逻辑、调用SpringBoot后台项目获取数据。</p>
+                    <p>3、SpringBoot后台项目负责调用第三方接口整合数据、开发API提供3D调用等，同时充当Tomcat容器存放打包后的3D资源。</p>
+                </div>
+
+                <h4 class="list2">天讯项目</h4>
+                <div class="block1">
+                    <p>项目名称：IDC手机端（2019-10 — 2020-07）</p>
+                    <p>项目介绍：portal是用户发起工单前端门户网站，idc手机端正是其移动端，主要功能包括工单发起、机柜资源查询等，采用uniApp + mui的方式，使用嵌入WebView远程服务的页面。</p>
+                    <p>技术架构：SpringBoot + Thymeleaf + SpringData-Jpa + PolarDB + MUI。</p>
+                    <p>职责描述：</p>
+                    <p>1、SpringBoot + Thymeleaf + mui进行H5页面开发、以及开发业务所需的API接口。</p>
+                    <p>2、负责uniApp“手机壳”的开发以及App的云打包发布、包括iOS上架App Store。</p>
+                    <p>3、负责Android的apk签名校验，防二次打包。</p>
+                </div>
+
+				
+                <!--
+                <h4 class="list2">项目1</h4>
+                <div class="block1">
+                    <p>项目名称：xxx（2020-09 — 2020-11）</p>
+                    <p>项目介绍：xxx</p>
+                    <p>技术架构：xxx</p>
+                    <p>职责描述：</p>
+                    <p>1、xxx</p>
+                </div>
+                -->
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="list1">自我评价</h3>
+            <div class="block">
+                <p>工作认真负责，对技术充满热情，善于探索，热爱开源，经积累：</p>
+                <p>1、博客园积分排名4005，粉丝310，总阅读量88万，总推荐量369；</p>
+                <p>2、GitHub中base-admin项目2.0k star，springBoot项目270 star；</p>
+                <p>3、另外还有三个QQ技术交流群；</p>
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="list1">致谢</h3>
+            <div class="block">
+                <p>感谢您花时间阅读我的简历，希望有机会一起共事！</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+<script>
+    let fileName = document.getElementById("username").innerText + "_java开发工程师_" + document.getElementById("workingage").innerText;
+    let htmlElement = document.getElementById("body");
+    let disposeDomList = [];
+    //a4纸宽高，a4纸的尺寸[595.28,841.89]
+    let a4Width = 595.28;
+    let a4Height = 841.89;
+
+    //转成PDF并下载
+    function pdf(){
+        //处理dom
+        disposeHtml();
+
+        window.html2canvas(htmlElement, {
+            allowTaint: true,
+            useCORS: true,
+            scale: 2,
+            background: "#FFFFFF",
+        }).then(function(canvas) {
+            let contentWidth = canvas.width;
+            let contentHeight = canvas.height;
+            //一页pdf显示html页面生成的canvas高度;
+            let pageHeight = contentWidth / a4Width * a4Height;
+            //未生成pdf的html页面高度
+            let leftHeight = contentHeight;
+            //页面偏移
+            let position = 0;
+            //html页面生成的canvas在pdf中图片的宽高
+            let imgWidth = a4Width;
+            let imgHeight = a4Width/contentWidth * contentHeight;
+
+            let pageData = canvas.toDataURL('image/jpeg', 1.0);
+
+            let pdf = new window.jsPDF('', 'pt', 'a4');
+
+            //有两个高度需要区分，一个是html页面的实际高度，和生成pdf的页面高度
+            //当内容未超过pdf一页显示的范围，无需分页
+            if (leftHeight < pageHeight) {
+                pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight);
+            }
+            // 分页
+            else {
+                while(leftHeight > 0) {
+                    pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight);
+                    leftHeight -= pageHeight;
+                    position -= a4Height;
+
+                    //避免添加空白页
+                    if(leftHeight > 0) {
+                        pdf.addPage();
+                    }
+                }
+            }
+            pdf.save(fileName+'.pdf');
+        });
+
+        //html恢复原样
+        disposeDomList.forEach(function (value) {
+            value.dom.style.marginTop = value.oldMarginTop;
+        })
+    }
+
+    //处理PDF分页
+    function disposeHtml(){
+        //一页pdf显示html页面生成的canvas高度 a4纸的尺寸[595.28,841.89]
+        let pageHeight = htmlElement.clientWidth / a4Width * a4Height;
+
+        let elementsByTagName = document.getElementsByTagName("p");
+        for (let i = 0; i < elementsByTagName.length; i++) {
+            let dom = elementsByTagName[i];
+            let boxHeight = 20;
+            //这里计算高度时，要加上预留的上下边距（大概20）
+            if (dom.offsetTop % pageHeight + (dom.offsetHeight + boxHeight) >= pageHeight) {
+                let newMarginTop = (dom.offsetHeight + boxHeight * 3) + "px";
+
+                disposeDomList.push({
+                    dom:dom,
+                    oldMarginTop:dom.style.marginTop
+                });
+
+                dom.style.marginTop = newMarginTop;
+            }
+        }
+    }
+
+    //转成图片并下载
+    function img(){
+        window.html2canvas(htmlElement, {
+            allowTaint: true,
+            useCORS: true,
+            scale: 2,
+            background: "#FFFFFF",
+        }).then(function(canvas){
+            //创建一个隐藏的下载a标签
+            let link = document.createElement("a");
+            link.style.display = "none";
+            link.setAttribute("download", fileName+".png");
+            link.href = canvas.toDataURL('image/png');
+
+            document.body.appendChild(link);
+            link.click();  // 执行 <a> 元素的下载
+
+            //过河拆桥
+            link.remove();
+        });
+    }
+
+    $(function(){
+        //生成目录弹窗
+        tip.generateContentList({
+            list1:$('h3.list1'),//目录的一级标题集合，找到所有
+            list2:"$list1.nextAll('.block').find('h4.list2')",//目录的二级标题集合，找到所有的
+            offset: ['40%', '0%'],//弹窗位置
+            area:["150px","100%"]//弹窗大小
+        });
+    });
+</script>
+</html>
